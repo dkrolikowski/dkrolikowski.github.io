@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-# title: Danny Krolikowski
+title: Danny Krolikowski
 
 # Short description of your site
 description: Danny Krolikowski's Personal Website
@@ -43,9 +43,9 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 
 social-network-links:
-  name: Danny Krolikowski
+  # name: Danny Krolikowski
   email: "krolikowski@utexas.edu"
-#  facebook: deanattali
+ # facebook: deanattali
   github: dkrolikowski
   # twitter: yourname
 #  patreon: yourname
@@ -58,7 +58,7 @@ social-network-links:
 #  snapchat: deanat78
   # instagram: yourname
 #  spotify: yourname
- telephone: +15124713387
+  telephone: +15124713387
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
