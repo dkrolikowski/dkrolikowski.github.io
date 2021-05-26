@@ -15,17 +15,21 @@ To understand how planetary systems form and evolve, we must understand how the 
 
 The bulk of the work I have done so far on young stars has been in the Taurus star forming region, which is the canonical region of low mass star formation in the Milky Way, and one of the nearest sites of ongoing star formation to us. Because it is so close, Taurus has been studied for a long time, leading to a rich history of knowledge of the region (my current record for oldest reference used is 1890). However, as with anything studied for so long (or let's be real, anything in astronomy), there are peculiarities that elude total explanation in the region.
 
-![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right" }
-<figcaption>[Taurus in Molecular Hydrogen](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)</figcaption>
+<figure>
+  <a href="https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract" target='blank'>
+    <img src="/assets/img/taurus_h2.png" width="400" ALIGN="right">
+  </a>
+  <figcaption>Taurus in molecular hydrogen.</figcaption>
+</figure>
+
+<!-- ![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right" }
+<figcaption>[Taurus in Molecular Hydrogen](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)</figcaption> -->
 <!-- *[Taurus in Molecular Hydrogen](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)* -->
 
 <!-- | [![Taurus in H2](/assets/img/taurus_h2.png)](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract) |
 |---|
 |Taurus in Molecular Hydrogen|
  -->
-<!-- <a href="https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract" target='blank' >
-  <img src="/assets/img/taurus_h2.png" width="400" ALIGN="right">
-</a> -->
 
 For example, Taurus has a rich census of disk-bearing, young objects near the clouds featuring ongoing star formation, but it also has disk-bearing objects at wide separations from those clouds. Additionally, there are disk-free objects distributed throughout the Taurus region, which might be the result of an older epoch of star formation. The gas in Taurus is also highly structure, featuring filaments and overdensities of gas. The formation of these gas structures is intimately tied to the role of gravity and turbulence (and magnetic fields, ...) in the star formation process. Tying the gas structure to the substructure distribution of stars in the region would elucidate the process by which stars decouple from their parent cloud and evolve after formation. All of this together implies that the star formation history of Taurus is quite complicated, and unraveling its mysteries is key to our understanding of low mass star formation.
 
