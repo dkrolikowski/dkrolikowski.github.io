@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle:
+subtitle: A page without science talk!
 ---
 
-## Getting away from research
+![Drummer me](/assets/img/drum.jpg){: width="500" align="right"}
 
-I like music. I was in a band. Check em out. I also like video games, and being on the water. Boring basically.
+I was born and raised on Long Island, New York, before moving to Western NY for college and then on to Austin for grad school. When I can manage to get away from my computer, which I will say has been increasingly difficult this past year, I enjoy live music, playing video games, being on or near the water, and watching terribly bad movies (I will never not plug the funniest podcast in existence: [How Did This Get Made?](https://www.hdtgminfo.com)).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=bVnOff4VTcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Fortunately, I moved to a city with an awesome and varied live music scene, but unfortunately I haven't gotten around to playing music again since moving for grad school. I am a percussionist, playing everything from jazz drum set to orchestral triangle. I was lucky to meet some other awesome musicians in college whose band I joined halfway through my undergrad years -- check us out if you want to hear some funky tunes: [The Red Kettle Collective](https://open.spotify.com/artist/3OKo8dOMzkCjzckYJ7eHxQ?si=JnHaAVMbRISm26R7I59sSA) :sunglasses:
