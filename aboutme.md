@@ -4,7 +4,8 @@ title: About me
 subtitle: A page without science talk!
 ---
 
-![Drummer me](/assets/img/drum.jpg){: width="500" align="right"}
+![Drummer me](/assets/img/drum.jpg)
+<!-- {: width="500" align="right"} -->
 
 I was born and raised on Long Island, New York, before moving to Western NY for college and then on to Austin for grad school. When I can manage to get away from my computer, which I will say has been increasingly difficult this past year, I enjoy live music, playing video games, being on or near the water, and watching terribly bad movies (I will never not plug the funniest podcast in existence: [How Did This Get Made?](https://www.hdtgminfo.com)).
 
