@@ -19,7 +19,7 @@ The bulk of the work I have done so far on young stars has been in the Taurus st
   <a href="https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract" target='blank'>
     <img src="/assets/img/taurus_h2.png" width="400" ALIGN="right">
   </a>
-  <figcaption>Taurus in molecular hydrogen.</figcaption>
+  <figcaption text-align="center">Taurus in molecular hydrogen.</figcaption>
 </figure>
 
 <!-- ![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right" }
