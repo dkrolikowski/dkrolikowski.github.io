@@ -42,24 +42,30 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 
-author:
-  name: Danny Krolikowski
+social-network-links:
   email: "krolikowski@utexas.edu"
-#  facebook: yourname  # eg. daattali
-  github: dkrolikowski    # eg. daattali
-#  twitter: yourname   # eg. daattali
-#  reddit: yourname    # eg. daattali
-#  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: danielkrolikowski  # eg. daattali
-#  xing: yourname      # eg. daattali
-#  stackoverflow: yourlink  # eg. "3943160/daattali"
-#  snapchat: yourname  # eg. daattali
-#  instagram: yourname # eg. daattali
-#  youtube: yourlink   # eg. user/daattali or channel/daattali
-#  spotify: yourname   # eg. daattali
-  telephone: +15124713387   # eg. +14159998888
+#  facebook: deanattali
+  github: dkrolikowski
+  # twitter: yourname
+#  patreon: yourname
+#  youtube: c/yourname
+#  medium: yourname
+#  reddit: yourname
+  linkedin: danielkrolikowski
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+  # instagram: yourname
+#  spotify: yourname
+ telephone: +15124713387
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
   ORCID: 0000-0001-9626-0613
-
+  # google-scholar: yourname
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
@@ -72,24 +78,24 @@ share-links-active:
   twitter: false
   facebook: false
   google: false
-  linkedin: false
-
-footer-links-active:
-  rss: false
-  facebook: false
-  email: true
-  twitter: false
-  google-plus: false
-  github: true
-  reddit: false
   linkedin: true
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: true
+
+# footer-links-active:
+#   rss: false
+#   facebook: false
+#   email: true
+#   twitter: false
+#   google-plus: false
+#   github: true
+#   reddit: false
+#   linkedin: true
+#   xing: false
+#   stackoverflow: false
+#   snapchat: false
+#   instagram: false
+#   youtube: false
+#   spotify: false
+#   telephone: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
