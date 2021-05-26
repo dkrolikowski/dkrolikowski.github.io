@@ -15,7 +15,8 @@ To understand how planetary systems form and evolve, we must understand how the 
 
 The bulk of the work I have done so far on young stars has been in the Taurus star forming region, which is the canonical region of low mass star formation in the Milky Way, and one of the nearest sites of ongoing star formation to us. Because it is so close, Taurus has been studied for a long time, leading to a rich history of knowledge of the region (my current record for oldest reference used is 1890). However, as with anything studied for so long (or let's be real, anything in astronomy), there are peculiarities that elude total explanation in the region.
 
-[![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right"}*Taurus in Molecular Hydrogen*](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)
+[![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right"}
+*Taurus in Molecular Hydrogen*](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)
 
 <!-- <a href="https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract" target='blank' >
   <img src="/assets/img/taurus_h2.png" width="400" ALIGN="right">
