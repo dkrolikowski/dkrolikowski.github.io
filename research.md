@@ -11,6 +11,8 @@ My research interests broadly include young stars and the planets around them. T
 
 ## Taurus
 
+Check out this cool interactive [plot](/taurus_interactive_3d)
+
 ## Other
 
 # Newly formed and evolving planetary systems
