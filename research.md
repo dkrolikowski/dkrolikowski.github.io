@@ -23,7 +23,7 @@ Check out this cool interactive [plot](/taurus_interactive_3d)
 
 # Li abundances in star clusters across time
 
-# Current Work at UT Austin:
+<!-- # Current Work at UT Austin:
 
 ### Kernel-phase interferometry for imaging beyond the diffraction limit
 
@@ -58,4 +58,4 @@ A few of the interesting results are as follows. We serendipitously discovered h
 
 ### Parity-Time symmetric systems
 
-As an undergraduate at Wesleyan University, I worked with Professor Fred Ellis on modeling novel optical systems using simple electronics. I focused specifically on systems exhibiting parity time (PT) symmetry. PT-symmetric systems are not symmetric under parity $$ (x \rightarrow -x) $$ or time $$ (t \rightarrow -t) $$ reflection individually but are symmetric under a combined parity and time reflection. A simple example of this is a coupled oscillator system with balanced gain and loss. Under time reversal gain turns into loss and visa versa. Thus a combined parity and time reflection returns the system to its original state. We demonstrated a wide variety of interesting applications of these systems including asymmetric transport and unidirectional lasing. For more information on this work see my three second author papers on my [publications](/publications) page.
+As an undergraduate at Wesleyan University, I worked with Professor Fred Ellis on modeling novel optical systems using simple electronics. I focused specifically on systems exhibiting parity time (PT) symmetry. PT-symmetric systems are not symmetric under parity $$ (x \rightarrow -x) $$ or time $$ (t \rightarrow -t) $$ reflection individually but are symmetric under a combined parity and time reflection. A simple example of this is a coupled oscillator system with balanced gain and loss. Under time reversal gain turns into loss and visa versa. Thus a combined parity and time reflection returns the system to its original state. We demonstrated a wide variety of interesting applications of these systems including asymmetric transport and unidirectional lasing. For more information on this work see my three second author papers on my [publications](/publications) page. -->
