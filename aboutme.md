@@ -8,10 +8,10 @@ I was born and raised on Long Island, New York, before moving to Western NY for 
 
 Fortunately, I moved to a city with an awesome and varied live music scene, but unfortunately I haven't gotten around to playing music again since moving for grad school. I am a percussionist, playing everything from jazz drum set to orchestral triangle. I was lucky to meet some other awesome musicians in college whose band I joined halfway through my undergrad years -- check us out if you want to hear some funky tunes: [The Red Kettle Collective](https://open.spotify.com/artist/3OKo8dOMzkCjzckYJ7eHxQ?si=JnHaAVMbRISm26R7I59sSA) 😎
 
-![Drummer me](/assets/img/drum.jpg){: width="700" align="center"}
+![Drummer me](/assets/img/drum.jpg){: width="700" align="justify"}
 
 *Drumming away with the SUNY Geneseo Jazz Ensemble*
 
-![PJ](/assets/img/pj.jpg){: width="700" align="center"}
+![PJ](/assets/img/pj.jpg){: width="700" align="justify"}
 
 *The sights I miss from NY (Port Jefferson Harbor)*
