@@ -5,6 +5,8 @@ subtitle:
 cover-img:
   - "/assets/img/enceladus.jpg" : "They Geysers of Enceladus, Credit: NASA/JPL-Caltech/SSI"
   - "/assets/img/titan_seas.jpg" : "The Seas of Titan, Credit: NASA/JPL-Caltech"
+  - "/assets/img/TitanFullHaze.jpg" : "The Seas of Titan, Credit: NASA/JPL-Caltech"
+  - "/assets/img/TitanHaze.jpg" : "The Seas of Titan, Credit: NASA/JPL-Caltech"
 ---
 
 Teaching has always been my true passion in academia. Since middle school, I have enjoyed helping others learn and figuring out the best ways to explain particular concepts or material. Teaching is one of the best ways to give back in academia, and it is a joy to see others become interested in the work that we do as astronomers.
