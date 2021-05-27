@@ -10,17 +10,12 @@ Fortunately, I moved to a city with an awesome and varied live music scene, but 
 
 | ![Drummer me](/assets/img/drum.jpg){: width="400" } | ![PJ](/assets/img/pj.jpg){: width="400" } |
 |:---:|:---:|
-| Drumming away with the SUNY Geneseo Jazz Ensemble | The sights I miss from NY (Port Jefferson Harbor) |
+| *Drumming away with the SUNY Geneseo Jazz Ensemble* | *The sights I miss from NY (Port Jefferson Harbor)* |
 
-<!-- | [![HST Image Analysis](../assets/img/4plt.png){: class="image-100"}](../assets/img/4plt.pdf) | [![Corner Plot](../assets/img/testCorner.png){: class="image-100"}](../assets/img/testCorner.pdf) |
-|:---:|:---:|
-|HST Image of a binary star system (top left), Fourier amplitude and phase with baselines overlayed in gray (bottom row), and histogram of the kernel-phases (top right) | 1 and 2D posteriors from fitting the Kernel-phases (lower left) and correlation plots showing the goodnes of fit in the two filters (upper right). | -->
-
-
-![Drummer me](/assets/img/drum.jpg){: width="700"}
+<!-- ![Drummer me](/assets/img/drum.jpg){: width="700"}
 
 *Drumming away with the SUNY Geneseo Jazz Ensemble*
 
 ![PJ](/assets/img/pj.jpg){: width="700"}
 
-*The sights I miss from NY (Port Jefferson Harbor)*
+*The sights I miss from NY (Port Jefferson Harbor)* -->
