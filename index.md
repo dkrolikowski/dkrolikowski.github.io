@@ -3,9 +3,9 @@ layout: page
 title: "Danny Krolikowski"
 subtitle: "5th Year PhD Student in Astronomy @ UT Austin"
 cover-img:
-  - "/assets/img/taurus_cloud.jpg" : "Taurus Star-Forming Region, Credit:"
-  - "/assets/img/het_startrail.jpg" : "The HET in West Texas, Credit:"
-  - "/assets/img/trappist1.jpg" : "TRAPPIST-1 Planetary System, Credit:"
+  - "/assets/img/het_startrail.jpg" : "The HET in West Texas, Credit: Ethan Tweedie"
+  - "/assets/img/saturn.jpg" : "Backlit Saturn, Credit: NASA/JPL-Caltech/SSI"
+  - "/assets/img/gaia_milkyway.png" : "Gaia's View of the Milky Way, Credit: ESA/Gaia/DPAC"
 ---
 
 Welcome! I'm Danny Krolikowski, a 5th year PhD student in Astronomy at the University of Texas at Austin.

@@ -2,6 +2,8 @@
 layout: page
 title: Research
 subtitle: young stars, their host populations, and their planetary systems
+cover-img:
+  - "/assets/img/taurus_cloud.jpg" : "The Taurus Dark Clouds, Credit: Digitized Sky Survey 2"
 ---
 {% include mathjs %}
 
