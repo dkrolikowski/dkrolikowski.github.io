@@ -18,10 +18,9 @@ author: Danny Krolikowski
 
 navbar-links:
   Home: "/"
-  Research Interests: "research"
+  Research Projects: "research"
   Teaching and Outreach: "teach"
   About Me: "aboutme"
-  # Taurus: "taurus_interactive_3d"
 
 # --- Logo --- #
 

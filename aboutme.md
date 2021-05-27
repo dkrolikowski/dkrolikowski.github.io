@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: A Bit About Me
 subtitle: A page without science talk!
 ---
 
