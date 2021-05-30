@@ -25,7 +25,7 @@ I have undertaken a couple of different projects to help answer these questions 
 
 ### Substructure in the Taurus region using *Gaia* EDR3
 
-[![Taurus XY Plane](/assets/img/taurus_xyplane.png){: width="400" align="left"}](/taurus_interactive_3d)
+[![Taurus XY Plane](/assets/img/taurus_xyplane.png){: width="380" align="right"}](/taurus_interactive_3d)
 
 The main project involving Taurus I have worked on is using *Gaia* EDR3 to investigate the substructure in the region, and paint a picture of the star forming history of the region. In this project, we have compiled an expansive census of Taurus members -- basically anything that has had some sort of youth confirmation and has been considered a member of the Taurus region -- and have matched with *Gaia* EDR3 to tease out the structure of Taurus's stellar population. We find that there is significant spatial substructure, with two types of subgroups: those that are tightly confined in space (and are preferentially near the clouds of star formation), and those that are distributed throughout the entire Taurus region. Check out a cool interactive plot [here](/taurus_interactive_3d) showing the Taurus stellar population and our identified subgroups in galactic 3D space.
 
