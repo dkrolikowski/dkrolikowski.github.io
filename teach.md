@@ -38,4 +38,4 @@ I have helped in running AoTATX for the last few years, including helming the Tw
 
 I have given two talks at AoTATX in the past: one on the prospects of life in the subsurface ocean of Saturn's moon Enceladus, and one on the Dragonfly mission to Titan (and why Titan might very well be the coolest moon in the solar system). You can view the first talk [here](https://www.youtube.com/watch?v=bVnOff4VTcU) (and hopefully will be able to view the second talk soon!). Also, take a look at any of the virtual live shows from 2020 for the monthly comedy routine that is Astronomy in the News.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=bVnOff4VTcU"  frameborder="0"  allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=bVnOff4VTcU"  frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
