@@ -40,6 +40,6 @@ I have given two talks at AoTATX in the past: one on the prospects of life in th
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bVnOff4VTcU"  frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
-## Various Mentoring
+## Undergraduate Mentoring
 
-I have also been involved in undergraduate mentoring programs here at UT. This includes GUMMY, which is a UT Astronomy Department specific program that matches astronomy undergraduates with graduate students to help them navigate the world of astronomy, both in and out of UT. I have also been a mentor for the TAURUS program, which is a summer research experience at UT for undergraduate students from underserved and traditionally marginalized groups. As a mentor, I was paired with one of the TAURUS students to help them with their research, provide advice for career paths after graduation, and welcome them into our department.
+I have also been involved in undergraduate mentoring programs here at UT. This includes GUMMY, which is a UT Astronomy Department specific program that matches astronomy undergraduates with graduate students to help them navigate the world of astronomy, both in and out of UT. I have also been a mentor for the [TAURUS program](https://sites.cns.utexas.edu/taurus/home), which is a summer research experience at UT for undergraduate students from underserved and traditionally marginalized groups. As a mentor, I was paired with one of the TAURUS students to help them with their research, provide advice for career paths after graduation, and welcome them into our department.
