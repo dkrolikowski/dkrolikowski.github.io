@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Danny Krolikowski"
-subtitle: "5th Year PhD Student in Astronomy @ UT Austin"
+subtitle: "5th Year Ph.D. Student in Astronomy @ UT Austin"
 cover-img:
   - "/assets/img/het_startrail.jpg" : "The HET in West Texas, Credit: Ethan Tweedie"
   - "/assets/img/saturn.jpg" : "Backlit Saturn, Credit: NASA/JPL-Caltech/SSI"
