@@ -53,7 +53,7 @@ I have started a survey of young transiting planet hosts found by K2 and TESS wi
 
 With this rich dataset of spectral time series, we also hope to investigate stellar activity in the NIR, which is crucial as the field moves forward with precision RVs across a wide spectral range. In particular, we are interested in characterizing the variability of the NIR helium absorption line, which has been used to probe the escaping atmospheres of planets. This spectral line is likely affected by activity, which will limit the possible precision for exosphere detections. We see that for moderately young stars (about 700 Myr), this variability should only cause an issue at the 1-2% level, although this increases substantially at younger ages. A thorough analysis across age and spectral type will be performed to accurately characterize the variability, and assess the viability of He observations for young planets. A poster describing the overview of this program and featuring preliminary results can be found [here](/assets/pubs/poster_exss4.pdf).
 
-#
+<br/><br/>
 
 # Li abundances in star clusters across time
 
