@@ -39,13 +39,13 @@ We have access to resources for this through [McDonald Observatory](https://mcdo
 
 # Newly formed and evolving planetary systems
 
-[![HL Tau](/assets/img/hltau.jpg){: width="400" align="right"}]
+![HL Tau](/assets/img/hltau.jpg){: width="350" align="right"}
 
 Planets are at their most dynamic in the first billion years of their lifetime, when the bulk of atmospheric and orbital evolution occurs. Observing the properties of planets across this timeframe is crucial in constraining competing models of planet formation and evolution, which make contrasting predictions for the distributions of such properties over time. For example, different orbital migration mechanisms result in different planet occurrence as a function of age, and different causes of atmospheric sculpting predict different planetary mass loss rates and radii distributions. Dozens of young planets have been discovered by missions such as K2 and TESS, including in young clusters and associations or around young field stars. Precisely characterizing the properties of these planets (mass, bulk density, atmospheric composition) and their systems (i.e. other planets in the system and their orbital properties) will greatly increase our understanding of the early evolution of planetary systems.
 
 ## Probing the architectures of young planetary systems
 
-[![Starspots](/assets/img/starspot.gif){: width="400" align="right"}]
+![Starspots](/assets/img/starspot.gif){: width="400" align="right"}
 
 Young stars are active, leading to a high level of photometric and spectroscopic variability that make discovering and characterizing planets around them quite difficult. For example, the presence of starspots introduces radial velocity jitter, which is temporally coherent noise that inflates the scatter of RV measurements of a star. This makes it extremely difficult to measure the mass of young planets, particularly those with small masses. One way to mitigate this issue is to observe in the infrared, where starspot contrast is decreased and RV jitter is smaller. The Habitable-zone Planet Finder spectrograph, a precision near-infrared spectrograph on the 10-m Hobby-Eberly Telescope at McDonald Observatory, is an ideal instrument to precisely measure the RVs of young stars and try to detect the doppler signal of planets around them.
 
