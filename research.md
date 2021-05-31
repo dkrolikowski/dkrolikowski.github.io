@@ -37,8 +37,6 @@ For my second year project at UT, I also started a spectroscopic survey for new 
 
 We have access to resources for this through [McDonald Observatory](https://mcdonald.utexas.edu) and the Tull coudé spectrograph on the 2.7-m Harlan J. Smith Telescope, and have slowly built up a survey observing over a hundred candidate members of the broader Taurus region. A poster featuring preliminary results from this survey can be found [here](/assets/pubs/poster_coolstars20.pdf).
 
-<br/><br/>
-
 # Newly formed and evolving planetary systems
 
 Planets are at their most dynamic in the first billion years of their lifetime, when the bulk of atmospheric and orbital evolution occurs. Observing the properties of planets across this timeframe is crucial in constraining competing models of planet formation and evolution, which make contrasting predictions for the distributions of such properties over time. For example, different orbital migration mechanisms result in different planet occurrence as a function of age, and different causes of atmospheric sculpting predict different planetary mass loss rates and radii distributions. Dozens of young planets have been discovered by missions such as K2 and TESS, including in young clusters and associations or around young field stars. Precisely characterizing the properties of these planets (mass, bulk density, atmospheric composition) and their systems (i.e. other planets in the system and their orbital properties) will greatly increase our understanding of the early evolution of planetary systems.
