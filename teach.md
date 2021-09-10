@@ -3,7 +3,7 @@ layout: page
 title: Teaching and Outreach
 subtitle:
 cover-img:
-  - "/assets/img/enceladus.jpg" : "They Geysers of Enceladus, Credit: NASA/JPL-Caltech/SSI"
+  - "/assets/img/enceladus.jpg" : "The Geysers of Enceladus, Credit: NASA/JPL-Caltech/SSI"
   - "/assets/img/TitanHaze.jpg" : "Titan's Hazy Atmosphere, Credit: NASA/JPL-Caltech/SSI"
 ---
 
