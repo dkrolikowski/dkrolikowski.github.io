@@ -20,6 +20,7 @@ navbar-links:
   Home: "/"
   Research Projects: "research"
   Teaching and Outreach: "teach"
+  CV: "/assets/DMK_CV_Sep2021.pdf"
   About Me: "aboutme"
 
 # --- Logo --- #
