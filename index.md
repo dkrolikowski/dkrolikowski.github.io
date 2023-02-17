@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Danny Krolikowski"
-subtitle: "NEID Postdoctoral Research Associate @ University of Arizona"
+subtitle: "NEID Postdoctoral Research Associate\n@ University of Arizona"
 cover-img:
   - "/assets/img/het_startrail.jpg" : "The HET in West Texas, Credit: Ethan Tweedie"
   - "/assets/img/saturn.jpg" : "Backlit Saturn, Credit: NASA/JPL-Caltech/SSI"
