@@ -1,14 +1,15 @@
 ---
 layout: page
 title: "Danny Krolikowski"
-subtitle: "6th Year Ph.D. Student in Astronomy @ UT Austin"
+subtitle: "NEID Postdoctoral Research Associate @ University of Arizona"
 cover-img:
   - "/assets/img/het_startrail.jpg" : "The HET in West Texas, Credit: Ethan Tweedie"
   - "/assets/img/saturn.jpg" : "Backlit Saturn, Credit: NASA/JPL-Caltech/SSI"
   - "/assets/img/gaia_milkyway.jpg" : "Gaia's View of the Milky Way, Credit: ESA/Gaia/DPAC"
+  - "/assets/img/kpno.jpg" : "Kitt Peak National Observatory, Credit: NOIRLab"
 ---
 
-Welcome! I'm Danny Krolikowski, a 6th year PhD student in Astronomy at the University of Texas at Austin.
+Welcome! I'm Danny Krolikowski, a postdoctoral research associate at the University of Arizona working on the NEID spectrograph team.
 
 My broad research interests involve young stars and their planetary systems, in particular to understand how they form and evolve in their early lifetimes, which is the period of most dynamic evolution that sets their fates and potential habitability. I have studied nearby young stellar associations to determine the spatial and kinematic structure that results from their formation, and how they will evolve and eventually dissolve over time. I also have started a program to search for planets in young stellar systems to map the typical system architecture at young ages, and where possible constrain the masses and compositions of these quickly evolving young planets.
 
