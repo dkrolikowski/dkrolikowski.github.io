@@ -35,14 +35,11 @@ I also was a tutor at the [Physics Learning Center](https://www.geneseo.edu/~pog
 
 Astronomy on Tap is a show that brings astronomy to the public with accesible and fun lectures at a bar, with events happening worldwide!
 
-<figure>
-  <img src="/assets/img/aot_news.jpeg" alt="AoTATX News" align="right" width="380" />
-  <figcaption>AoT ATX News</figcaption>
-</figure>
+[![AoTATX News](/assets/img/aot_news.jpeg){: width="380" align="right"}]
 
 Before the COVID pandemic, Astronomy on Tap in Austin ([AoTATX](https://www.aotatx.org)) ran monthly shows featuring 3 talks and an Astronomy in the News segment, regularly reaching audiences of over 200 people. Throughout 2020, we broadcasted virtual live shows featuring a pared down run of the show. In exciting news -- AoTATX has returned to live shows as of November 2023!
 
-While at UT Austin, I helped to run AoTATX, including helming the Twitter account during our shows, and co-hosted the Astronomy in the News section with my wonderfully hilarious co-host and fellow grad student [Jackie Champagne](http://jackiechampagne.com). AoT has been a great way of getting astronomy to the public, and the enthusiasm and interest among our audience for all of the topics we cover is palpable.
+While at UT Austin, I helped to run AoTATX, including helming the Twitter account during our shows, and co-hosted the Astronomy in the News section with my wonderfully hilarious co-host and fellow grad student [Jackie Champagne](http://jackiechampagne.com). The picture on the right captured me and my favorite pasttime: sharing news on the icy moons of the outer solar system. AoT has been a great way of getting astronomy to the public, and the enthusiasm and interest among our audience for all of the topics we cover is palpable.
 
 I have given two talks at AoTATX in the past: one on the prospects of life in the subsurface ocean of Saturn's moon Enceladus and one on the Dragonfly mission to Titan (and why Titan might very well be the coolest moon in the solar system). You can view the first talk [here](https://www.youtube.com/watch?v=bVnOff4VTcU) (and hopefully will be able to view the second talk soon!). Also, take a look at any of the virtual live shows from 2020 for the monthly comedy routine that is Astronomy in the News.
 
