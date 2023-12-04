@@ -33,7 +33,12 @@ I also was a tutor at the [Physics Learning Center](https://www.geneseo.edu/~pog
 
 ## Astronomy on Tap
 
-Astronomy on Tap is a show tha brings astronomy to the public with accesible and fun lectures at a bar, with events happening worldwide!
+Astronomy on Tap is a show that brings astronomy to the public with accesible and fun lectures at a bar, with events happening worldwide!
+
+<figure>
+  <img src="/assets/img/aot_news.jpeg" alt="AoTATX News" align="right" width="380" />
+  <figcaption>AoT ATX News</figcaption>
+</figure>
 
 Before the COVID pandemic, Astronomy on Tap in Austin ([AoTATX](https://www.aotatx.org)) ran monthly shows featuring 3 talks and an Astronomy in the News segment, regularly reaching audiences of over 200 people. Throughout 2020, we broadcasted virtual live shows featuring a pared down run of the show. In exciting news -- AoTATX has returned to live shows as of November 2023!
 
