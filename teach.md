@@ -25,9 +25,9 @@ During these two semesters of TAing, I designed lessons for 3 class periods:
 
 ## Teaching at SUNY Geneseo
 
-In my undergraduate career, I was an instructor for the lab portion of the introductory astronomy course for 6 semesters, from my sophomore through my senior year. One of the privileges of going to an undergraduate-only institution was this experience of directly teaching and being responsible for my own section of a course. This involved three separate courses: an introductory astronomy course covering the solar system (ASTR 106), a course covering stars and galaxies (ASTR 111), and a course covering all of this material (ASTR 101). This job entailed running my own section of the lab class, organizing pre-lab lectures and quizzes, grading, and of course helping students learn about astronomy during the labs themselves.
+While an undergrad, I was an instructor for the lab portion of the introductory astronomy course starting in my sophomore year. One of the privileges of going to an undergrad-only institution was this opportunity to directly teach my own section of a course. During my years there were three different lab courses offered: an intro course covering the solar system (ASTR 106), one covering stars and galaxies (ASTR 111), and on covering all material (ASTR 101). In this role I ran my own section of the lab class, organized pre-lab lectures and quizzes, graded, and of course helped students learn while doing the lab activities.
 
-I also was a tutor at the SUNY Geneseo [Physics Learning Center](https://www.geneseo.edu/~pogo/PLC/Tutors.htm), which provided free tutoring for students in introductory major and non-major physics classes.
+I also was a tutor at the [Physics Learning Center](https://www.geneseo.edu/~pogo/PLC/Tutors.htm), which provided free tutoring for students in introductory major and non-major physics classes.
 
 # Outreach
 
