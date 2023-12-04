@@ -9,8 +9,10 @@ cover-img:
   - "/assets/img/kpno.jpg" : "Kitt Peak National Observatory, Credit: NOIRLab"
 ---
 
-Welcome! I'm Danny Krolikowski, a postdoctoral research associate at the University of Arizona working on the NEID spectrograph team.
+Welcome! I'm Danny Krolikowski, a postdoct at Steward Observatory and a member of the NEID and HPF instrument teams, both of which are extreme precision radial velocity spectrometers.
 
-My broad research interests involve young stars and their planetary systems, in particular to understand how they form and evolve in their early lifetimes, which is the period of most dynamic evolution that sets their fates and potential habitability. I have studied nearby young stellar associations to determine the spatial and kinematic structure that results from their formation, and how they will evolve and eventually dissolve over time. I also have started a program to search for planets in young stellar systems to map the typical system architecture at young ages, and where possible constrain the masses and compositions of these quickly evolving young planets.
+In my current role, I mostly work on the NEID software team to expand the functionality of its data reduction pipeline, address issues with it, and support the NEID userbase. I received my Ph.D. from UT Austin in August of 2022, where I worked with Professor Adam Kraus and was an active user of the HPF spectrograph.
 
-See my [research](/research) page for more on the research I have been doing at UT, and my [teaching](/teach) page to read about some of the teaching and outreach I have done since my undergrad days. I also am indeed a person outside of astronomy, and you can take a look at my [about me](\aboutme) page for a bit more about me.
+My broad research interests involve young stars and their planetary systems, in particular to understand how they form and evolve in their early lifetimes. I have worked on projects regarding young stellar populations, stellar activity, exoplanet detection and characterization, and the handling of spectroscopic data.
+
+Please take a look through the rest of this website to learn more! See the [research](/research) page for more about my researc  and the [teaching](/teach) page to read about some of the teaching and outreach I have done since my undergrad days. I also am indeed a person outside of astronomy, and you can take a look at my [about me](\aboutme) page for a bit more about me!
