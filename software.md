@@ -32,6 +32,8 @@ Beyond addressing issues and helping to restart the instrument after the June 20
 
 NEID has a variable line spread function across its spectrum, with a significant amount of width, shape, and asymmetry changes within an order and from order to order. This needs to be included in the telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission. 
 
+![O2 Gamma Band](o2_gamma_band.png){: width=400 align='right'}
+
 I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
   + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
   + I remade the telluric model grid using [LBLRTM]() to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
@@ -44,7 +46,7 @@ Beyond the telluric module, I am currently helping to overhaul the wavelength ca
 
 ## Miscellaneous
 
-here are some miscellaneous
+Here's some other random software I've worked on, including recommendations to packages that I have (minorly) contributed to that I think are very cool and useful!
 
 ### Orbits code
 
