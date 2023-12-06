@@ -26,12 +26,39 @@ I'm still actively developing the pipeline -- so stay tuned for improvements and
 
 ## NEID Work
 
+I have also contributed to the NEID data reduction and analysis pipeline in my current postdoc role. Although the NEID pipeline is not yet public, you can find detailed documentation about the NEID data format, pipeline architecture, and reduction/analysis algorithms [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/).
+
+Overview of pipeline: documentation.
+
+Overview of my contributions: telluric model/LSF and wavelength calibration improvements.
+
+### NEID Telluric Model
+
+Why? Variable line spread function. Rebuild grid, build map of LSF, implement variable kernel convolution. Link to documentation.
+
+What else -- apply to HPF!
+
 ## Miscellaneous
+
+here are some miscellaneous
 
 ### Orbits code
 
+From class homework. Not well maintained but people may find it useful to look at.
+
 ### Contributions/shoutouts
+
+Shout outs to some packages that are cool and useful that I contributed to in a minor way -- mostly through testing and consultation on implementation.
+
+  + saphires
+  + comove
 
 ## Future plans
 
+Beyond improvements to coude pipeline, other things I'm thinking about.
+
 ### HPF Helium EWs
+
+Analysis pipeline for HPF -- measure He EWs like in my paper. Make use of the telluric code from above. Point to any late F through early M dwarf HPF spectrum and output a He EW! Would be useful for running on large data sets. Also transparency: pipeline is described in my paper but the code is not published somewhere, and it should be.
+
+
