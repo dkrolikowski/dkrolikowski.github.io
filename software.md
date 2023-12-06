@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software
-subtitle: Spectroscopic data reduction and analysis
+subtitle: Spectroscopic data reduction and analysis, stellar and exoplanetary astronomy
 cover-img:
   - "/assets/img/neid_echelle.jpg" : "NEID Echellogram of 51 Peg, Credit: The NEID Team"
 ---
@@ -11,7 +11,7 @@ Writing software, in particular to support others, is one of my favorite parts o
 
 Below I detail software that I have written or plan to write, and my contributions to the NEID pipeline.
 
-## Coude Reduction Pipeline
+## Tull Coudé Spectrograph Reduction and Analysis Pipeline
 
 While a grad student at UT Austin, I wrote a reduction pipeline for the Tull coudé spectrograph on the Harlan J. Smith 2.7-m telescope at McDonald Observatory. I've maintained the original Python 2 version of the pipeline since 2017, which can be found on my GitHub page as [```coudereduction```](https://github.com/dkrolikowski/coudereduction).
 
@@ -24,7 +24,7 @@ While the pipeline is written specifically for the Tull spectrograph, it is bein
  
 I'm still actively developing the pipeline -- so stay tuned for improvements and more functionality!
 
-## NEID Work
+## NEID Data Reduction Pipeline
 
 I have also contributed to the NEID data reduction and analysis pipeline in my current postdoc role. Although the NEID pipeline is not yet public, you can find detailed documentation about the NEID data format, pipeline architecture, and reduction/analysis algorithms [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/).
 
@@ -37,9 +37,6 @@ I detailed the improvements I made to the telluric module in the NEID pipeline d
   + I remade the telluric model grid using [LBLRTM](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
   + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
   + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
-<span style="color:red">
-Text content
-</span>
 
 ![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}
 On the right I show an example of the new telluric model correction with the latest version of the NEID pipeline for an A star -- so the spectrum should be flat. This is a portion of the spectrum covering the O<sub>2</sub> gamma band, which is the weakest of the three strong O<sub>2</sub> bands in the visible. In <span style="color:#50b29e; font-weight: bold;">teal</span> is the correction with the old pipeline (without a variable LSF) and in <span style="color:#db6d1b; font-weight: bold">orange</span> is the new correction with the variable LSF. Since these are O<sub>2</sub> lines, they are only highligthing the improvement from the LSF -- and the correction is **much** better! There are a few weak water lines in his span though, such as at 6299 Angstrom, which are also better corrected in the new pipeline version.
@@ -52,18 +49,18 @@ Beyond the telluric module, I am currently helping to overhaul the wavelength ca
 
 Here's some other random software I've worked on, including recommendations to packages that I have (minorly) contributed to that I think are very cool and useful!
 
-### Orbits code
+### Orbits Code
 
 For a Planetary Astrophysics class in grad school, we had to write code to take in parameters of a planetary system and output observable quantities such as the stellar RV, astrometric orbits, and when transits would occur. My version can be found as [```HW1_Orbits```](https://github.com/dkrolikowski/HW1_Orbits) on my GitHub page. 
 
 I haven't gone back and edited the code since I created it (I was an early grad student so it might be a little rough), but it might still be useful to take a look at for people needing to generate planetary system observations!
 
-### Minor contributions
+### Minor Contributions
 
 + [```saphires```](https://github.com/tofflemire/saphires) is a code developed by [Ben Tofflemire](https://tofflemire.github.io/index.html) (51 Peg postdoctoral fellow at UT Austin) that implements broadening functions to measure radial velocities from high resolution spectra. This code is great -- broadening functions are a very useful tool for measuring RVs and understanding stellar spectra, and there are great discussions of why in the ```saphires``` documentation.
 + [```comove```](https://github.com/adamkraus/Comove) is a code devloped by Adam Kraus (my Ph.D. advisor and UT Austin professor) to use Gaia to search for comoving companions to any input star. It searches through a whole bunch of catalogues to provide plots with which one can assess whether or not a star is a member of a larger stellar association or not. It is super useful for searching for unidentified and "looser" young stellar populations.
 
-## Future plans
+## Future Plans
 
 Beyond improvements and expansions to the Tull coudé reduction and analysis pipeline, other software I am thinking about is:
 

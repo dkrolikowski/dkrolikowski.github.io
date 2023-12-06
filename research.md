@@ -7,7 +7,9 @@ cover-img:
 ---
 {% include mathjs %}
 
-My research interests broadly include young stars, the stellar populations in which they reside, and the planets around them. This includes projects that cover scales from entire regions of young or forming stars, down to the individual planets in these systems. I'm in my 5th year as a Ph.D. student at [UT Austin](https://astronomy.utexas.edu) where I work with Adam Kraus. During my undergraduate education at [SUNY Geneseo](https://www.geneseo.edu/physics), I worked with Aaron Steinhauer studying the lithium abundances of star clusters, to map the chemical evolution of lithium across time and stellar type.
+My research interests broadly include young stars, the stellar populations in which they reside, and the planets around them. This includes projects that cover scales from entire regions of young or forming stars, down to the individual planets in these systems. 
+
+<!-- I'm in my 5th year as a Ph.D. student at [UT Austin](https://astronomy.utexas.edu) where I work with Adam Kraus. During my undergraduate education at [SUNY Geneseo](https://www.geneseo.edu/physics), I worked with Aaron Steinhauer studying the lithium abundances of star clusters, to map the chemical evolution of lithium across time and stellar type. -->
 
 # Young stellar populations
 
