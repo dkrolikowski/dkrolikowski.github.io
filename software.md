@@ -13,7 +13,7 @@ Below I detail software that I have written or plan to write, and my contributio
 
 ## Coude Reduction Pipeline
 
-While a grad student at UT Austin, I wrote a reduction pipeline for the Tull coudé spectrograph on the Harlan J. Smith 2.7-m telescope at McDonald Observatory. I've maintained the original Python 2 version of the pipeline since 2017, which can be found on my GitHub page.
+While a grad student at UT Austin, I wrote a reduction pipeline for the Tull coudé spectrograph on the Harlan J. Smith 2.7-m telescope at McDonald Observatory. I've maintained the original Python 2 version of the pipeline since 2017, which can be found on my GitHub page as [```coudereduction```](https://github.com/dkrolikowski/coudereduction).
 
 Recently, I finally got around to updating the pipeline -- writing it in Python 3, making it more user friendly, and implementing its steps in a more modular way to make future development easier. This version of the pipeline can be found on my GitHub as [```tull_coude_reduction```](https://github.com/dkrolikowski/tull_coude_reduction) and its documentation can be found [here](https://tull-coude-reduction.readthedocs.io/en/latest/). As of now, the pipeline runs from processing the raw CCD images to measuring radial velocities from extracted and wavelength calibrated stellar spectra.
 
@@ -32,7 +32,7 @@ Beyond addressing issues and helping to restart the instrument after the June 20
 
 NEID has a variable line spread function across its spectrum, with a significant amount of width, shape, and asymmetry changes within an order and from order to order. This needs to be included in the telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission. 
 
-![O2 Gamma Band](o2_gamma_band.png){: width=400 align='right'}
+![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width=400 align='right'}
 
 I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
   + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
@@ -48,9 +48,11 @@ Beyond the telluric module, I am currently helping to overhaul the wavelength ca
 
 Here's some other random software I've worked on, including recommendations to packages that I have (minorly) contributed to that I think are very cool and useful!
 
+https://github.com/dkrolikowski/HW1_Orbits
+
 ### Orbits code
 
-From class homework. Not well maintained but people may find it useful to look at.
+For a Planetary Astrophysics class in grad school, we had to write code to take in parameters of a planetary system and output observable quantities such as the stellar RV, astrometric orbits, and when transits would occur. My version can be found as [```HW1_Orbits```](https://github.com/dkrolikowski/HW1_Orbits) on my GitHub page. I haven't gone back and edited the code since I created it (I was an early grad student so it might be a little rought), but it might still be useful to take a look at for people needing to generate planetary system observations!
 
 ### Contributions/shoutouts
 
