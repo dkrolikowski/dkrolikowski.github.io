@@ -15,7 +15,7 @@ Below I detail software that I have written or plan to write, and my contributio
 
 While a grad student at UT Austin, I wrote a reduction pipeline for the Tull coudé spectrograph on the Harlan J. Smith 2.7-m telescope at McDonald Observatory. I've maintained the original Python 2 version of the pipeline since 2017, which can be found on my GitHub page.
 
-Recently, I finally got around to updating the pipeline -- writing it in Python 3, making it more user friendly, and implementing its steps in a more modular way to make future development easier. This version of the pipeline can be found on my GitHub as ```tull_coude_reduction``` and its documentation can be found [here](https://tull-coude-reduction.readthedocs.io/en/latest/). As of now, the pipeline runs from processing the raw CCD images to measuring radial velocities from extracted and wavelength calibrated stellar spectra.
+Recently, I finally got around to updating the pipeline -- writing it in Python 3, making it more user friendly, and implementing its steps in a more modular way to make future development easier. This version of the pipeline can be found on my GitHub as [```tull_coude_reduction```](https://github.com/dkrolikowski/tull_coude_reduction) and its documentation can be found [here](https://tull-coude-reduction.readthedocs.io/en/latest/). As of now, the pipeline runs from processing the raw CCD images to measuring radial velocities from extracted and wavelength calibrated stellar spectra.
 
 While the pipeline is written specifically for the Tull spectrograph, it is being developed with a modular design so that:
   + It is easy to add more functionality, or different algorithms/methods for any of the reduction or analysis steps.
@@ -28,15 +28,19 @@ I'm still actively developing the pipeline -- so stay tuned for improvements and
 
 I have also contributed to the NEID data reduction and analysis pipeline in my current postdoc role. Although the NEID pipeline is not yet public, you can find detailed documentation about the NEID data format, pipeline architecture, and reduction/analysis algorithms [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/).
 
-Overview of pipeline: documentation.
+Beyond addressing issues and helping to restart the instrument after the June 2022 wildfire shutdown, my main contribution to the pipeline has been rewriting its **telluric model creation module**.
 
-Overview of my contributions: telluric model/LSF and wavelength calibration improvements.
+NEID has a variable line spread function across its spectrum, with a significant amount of width, shape, and asymmetry changes within an order and from order to order. This needs to be included in the telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission. 
 
-### NEID Telluric Model
+I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
+  + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
+  + I remade the telluric model grid using [LBLRTM]() to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
+  + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
+  + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
 
-Why? Variable line spread function. Rebuild grid, build map of LSF, implement variable kernel convolution. Link to documentation.
+There is still work to be done on the telluric module. For one, the variable LSF is only mapped where we have LFC spectra, which does not cover the full NEID bandpass. I also intend to apply these methods to HPF spectra, which will *greatly* benefit from improved telluric correction given its NIR bandpass. 
 
-What else -- apply to HPF!
+Beyond the telluric module, I am currently helping to overhaul the wavelength calibration module to extract as much information as possible from the ensemble of wavelength calibration source data we taken every day.
 
 ## Miscellaneous
 
