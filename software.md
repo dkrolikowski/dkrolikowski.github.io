@@ -32,13 +32,17 @@ Beyond addressing issues and helping to restart the instrument after the June 20
 
 NEID has a variable line spread function across its spectrum, with a significant amount of width, shape, and asymmetry changes within an order and from order to order. This needs to be included in the telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission. 
 
-![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}
-
 I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
   + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
   + I remade the telluric model grid using [LBLRTM](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
   + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
   + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
+<span style="color:red">
+Text content
+</span>
+
+![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}
+On the right I show an example of the new telluric model correction with the latest version of the NEID pipeline for an A star -- so the spectrum should be flat. This is a portion of the spectrum covering the O<sub>2</sub> gamma band, which is the weakest of the three strong O<sub>2</sub> bands in the visible. In <span style="color:#50b29e; font-weight: bold;">teal</span> is the correction with the old pipeline (without a variable LSF) and in <span style="color:#db6d1b; font-weight: bold">orange</span> is the new correction with the variable LSF. Since these are O<sub>2</sub> lines, they are only highligthing the improvement from the LSF -- and the correction is **much** better! There are a few weak water lines in his span though, such as at 6299 Angstrom, which are also better corrected in the new pipeline version.
 
 There is still work to be done on the telluric module. For one, the variable LSF is only mapped where we have LFC spectra, which does not cover the full NEID bandpass. I also intend to apply these methods to HPF spectra, which will *greatly* benefit from improved telluric correction given its NIR bandpass. 
 
