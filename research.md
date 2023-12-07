@@ -7,31 +7,44 @@ cover-img:
 ---
 {% include mathjs %}
 
-My research interests broadly include young stars, the stellar populations in which they reside, and the planets around them. This includes projects that cover scales from entire regions of young or forming stars, down to the individual planets in these systems. 
+My research interests and projects broadly include young stars and planets, in particular:
+  + Leveraging Gaia to understand young stellar populations and their star forming history.
+  + Young stellar activity, including as a probe of stellar structure and its effect on radial velocity observations (particularly across wavelength)
+  + The architecture of young planetary systems and their formation pathways
+  + Spectroscopic data reduction and analysis
 
-<!-- I'm in my 5th year as a Ph.D. student at [UT Austin](https://astronomy.utexas.edu) where I work with Adam Kraus. During my undergraduate education at [SUNY Geneseo](https://www.geneseo.edu/physics), I worked with Aaron Steinhauer studying the lithium abundances of star clusters, to map the chemical evolution of lithium across time and stellar type. -->
+Below I talk in more detail about some of the main projects I have worked on.
 
-# Young stellar populations
+# The Taurus star forming region's substructure and history
 
-To understand how planetary systems form and evolve, we must understand how the stars they orbit do the same. One pillar of my research is the study of young stars, and in particular the groups they form in. Most stars form in clusters, or at the very least loose associations. By studying an ensemble of stars that formed together, it is easier to determine the age, and thus other stellar properties, of all stars in the group. With a well defined census, we can look at the spatial and velocity distributions of the stars in these groups to back out a picture of how they formed, which can constrain the theories and physics of star formation in general.
-
-## Taurus
-
-The bulk of the work I have done so far on young stars has been in the Taurus star forming region, which is the canonical region of low mass star formation in the Milky Way, and one of the nearest sites of ongoing star formation to us. Because it is so close, Taurus has been studied for a long time, leading to a rich history of knowledge of the region (my current record for oldest reference used is 1890). However, as with anything studied for so long, or really anything in astronomy, there are peculiarities in the greater Taurus region that elude total explanation.
-
-[![Taurus in H2](/assets/img/taurus_h2.png){: width="400" align="right"}](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)
-
-For example, Taurus has a rich census of disk-bearing, young objects near the clouds featuring ongoing star formation, but it also has disk-bearing objects at wide separations from those clouds. Additionally, there are disk-free objects distributed throughout the Taurus region, which might be the result of an older epoch of star formation. The gas in Taurus is also highly structured, featuring filaments and overdensities of gas (see the image to the right from [Goldsmith et al. 2008](https://ui.adsabs.harvard.edu/abs/2008ApJ...680..428G/abstract)). The formation of these gas structures is intimately tied to the role of gravity and turbulence (and magnetic fields, ...) in the star formation process. Tying the gas structure to the substructure distribution of stars in the region would elucidate the process by which stars decouple from their parent cloud and evolve after formation. All of this together implies that the star formation history of Taurus is quite complicated, and unraveling its mysteries is key to our understanding of low mass star formation.
-
-I have undertaken a couple of different projects to help answer these questions about the Taurus region, in particular looking to leverage the high precision astrometry from the *Gaia* mission to: 1) disentangle the complicated 6D position and velocity substructure of the Taurus stellar population and 2) search for new members of the Taurus region, especially older objects that may have eluded previous biased surveys of the region.
-
-### Substructure in the Taurus region using *Gaia* EDR3
+Gaia has provided an unprecedented level of high quality astrometry and photometry across the entire sky. With its high precision, we can use Gaia data to map the 3D (and including radial velocities 6D) structure of stellar populations which can back out a picture of how they formed and constrain the theories of star formation, such as the role of different triggers of star formation or the dispersal mechanisms of stellar groups.
 
 [![Taurus XY Plane](/assets/img/taurus_xyplane.png){: width="380" align="right"}](/taurus)
 
-The main project involving Taurus I have worked on is using *Gaia* EDR3 to investigate the substructure in the region, and paint a picture of the star forming history of the region. In this project, we have compiled an expansive census of Taurus members -- basically anything that has had some sort of youth confirmation and has been considered a member of the Taurus region -- and have matched with *Gaia* EDR3 to tease out the structure of Taurus's stellar population. We find that there is significant spatial substructure, with two types of subgroups: those that are tightly confined in space (and are preferentially near the clouds of star formation), and those that are distributed throughout the entire Taurus region. Check out a cool interactive plot [here](/taurus) showing the Taurus stellar population and our identified subgroups in galactic 3D space.
+In the first chapter of my dissertation, I compiled the most comprehensive census of the Taurus star forming region's stellar population to date, and used Gaia to map its structure and uncover its star forming history. Taurus is the canonical region of low mass star formation, but it has a complex history with multiple populations that are still not yet fully understood. In this work, we found significant spatial substructure in Taurus's stellar population, with two types of subgroups: those tightly confined in space (and preferentially near the clouds) and those that are distributed throughout the region. Check out a cool interactive plot [here](/taurus) showing the Taurus stellar population and our identified subgroups in galactic 3D space. The plot to the right shows the Taurus stellar population in the galactic XY plane, with different markers indicating different stellar groups.
 
-The region as a whole is fairly coherent in kinematics, although there is some hints of kinematic substructure that correlates with spatial position. On average, the tightly confined groups are younger than the distributed groups, which makes sense as they are nearer to the areas of ongoing star formation. In all, this points to a highly complicated star formation history of Taurus, having at least two successive epochs of star formation featuring multiple modes (clustered and distributed) of star formation simultaneously. This work is published in The Astronomical Journal, and you read more about the methods and conclusions [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract).
+The region as a whole is fairly coherent in kinematics, although there are some hints of kinematic substructure that correlate with spatial position. On average, the tightly confined groups are younger than the distributed groups, which makes sense as they are nearer to the areas of ongoing star formation. In all, this points to a highly complicated star formation history of Taurus, having at least two successive epochs of star formation featuring multiple modes (clustered and distributed) of star formation simultaneously. This work is published in The Astronomical Journal, and you read more about the methods and conclusions [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract).
+
+# Young stellar populations
+
+## The Taurus star forming region
+
+## Searching for new young stellar groups
+
+# Stellar activity
+
+## Helium activity
+
+## Panchromatic M dwarf RVs
+
+# Young exoplanets
+
+## Architectures of young planets
+
+
+<!-- # Young stellar populations
+
+To understand how planetary systems form and evolve, we must understand how the stars they orbit do the same. One pillar of my research is the study of young stars, and in particular the groups they form in. Most stars form in clusters, or at the very least loose associations. By studying an ensemble of stars that formed together, it is easier to determine the age, and thus other stellar properties, of all stars in the group. With a well defined census, we can look at the spatial and velocity distributions of the stars in these groups to back out a picture of how they formed, which can constrain the theories and physics of star formation in general.
 
 ### A survey for new members of the Taurus region
 
@@ -59,4 +72,4 @@ With this rich dataset of spectral time series, we also hope to investigate stel
 
 # Li abundances in star clusters across time
 
-In my undergrad years at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time as it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters.
+In my undergrad years at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time as it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters. -->
