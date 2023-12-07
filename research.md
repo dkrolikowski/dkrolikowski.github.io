@@ -25,21 +25,21 @@ In the first chapter of my dissertation, I compiled the most comprehensive censu
 
 The region as a whole is fairly coherent in kinematics, although there are some hints of kinematic substructure that correlate with spatial position. On average, the tightly confined groups are younger than the distributed groups, which makes sense as they are nearer to the areas of ongoing star formation. In all, this points to a highly complicated star formation history of Taurus, having at least two successive epochs of star formation featuring multiple modes (clustered and distributed) of star formation simultaneously. This work is published in The Astronomical Journal, and you read more about the methods and conclusions [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract).
 
-# Young stellar populations
+# Stellar activity in the NIR Helium triplet at young agesd
 
-## The Taurus star forming region
+# Outer architecture of young exoplanetary systems
+
+# Other assorted projects
 
 ## Searching for new young stellar groups
 
-# Stellar activity
+Like I said above, Gaia provides an unprecedented look into stellar populations. This doesn't just apply to groups of stars already established in the literature. The precision astrometry can be used to look for groups of stars not previously known by finding stars with similar 3D positions and on-sky motions. However, many stars in Gaia are missing radial velocity (particularly to sub-km/s precision) and there is no youth indicator information beyond Gaia photometry-based isochronal ages.
 
-## Helium activity
+Those last two pieces of info can be added with high resolution spectroscopy, to measure radial velocities and traditional spectroscopic youth indicators like H-alpha and lithium abundance. I have done significant observing using the Tull coudé optical echelle spectrograph at McDonald Observatory to look at candidate members of young stellar groups, both known and unknown. For example, I have looked for new members of the distributed/older population of Taurus and also looked for the host stellar populations of young transiting planet host stars found with K2 and TESS.
+
+As a part of this effort, I wrote a pipeline for the Tull spectrograph to reduce its data and perform simple analysis, including measuring radial velocities and Li equivalent widths. I write more about this pipeline on my [Software page](/software).
 
 ## Panchromatic M dwarf RVs
-
-# Young exoplanets
-
-## Architectures of young planets
 
 
 <!-- # Young stellar populations
