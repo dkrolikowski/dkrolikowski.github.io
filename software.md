@@ -34,7 +34,7 @@ NEID has a variable line spread function across its spectrum, with a significant
 
 I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
   + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
-  + I remade the telluric model grid using [LBLRTM](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
+  + I remade the telluric model grid using [```LBLRTM```](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
   + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
   + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
 
@@ -58,7 +58,7 @@ I haven't gone back and edited the code since I created it (I was an early grad 
 
 ### Minor Contributions
 
-+ [```saphires```](https://github.com/tofflemire/saphires) is a code developed by [Ben Tofflemire](https://tofflemire.github.io/index.html) (51 Peg postdoctoral fellow at UT Austin) that implements broadening functions to measure radial velocities from high resolution spectra. This code is great -- broadening functions are a very useful tool for measuring RVs and understanding stellar spectra, and there are great discussions of why in the ```saphires``` documentation.
++ [```saphires```](https://github.com/tofflemire/saphires) is a code developed by [Ben Tofflemire](https://tofflemire.github.io/index.html) (51 Peg postdoctoral fellow at UT Austin) that implements broadening functions to measure radial velocities from high resolution spectra. This code is great -- broadening functions are a very useful tool for measuring RVs and understanding stellar spectra, and there are great discussions of why in the [```saphires```](https://github.com/tofflemire/saphires) documentation.
 + [```comove```](https://github.com/adamkraus/Comove) is a code devloped by Adam Kraus (my Ph.D. advisor and UT Austin professor) to use Gaia to search for comoving companions to any input star. It searches through a whole bunch of catalogues to provide plots with which one can assess whether or not a star is a member of a larger stellar association or not. It is super useful for searching for unidentified and "looser" young stellar populations.
 
 ## Future Plans
