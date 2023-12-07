@@ -37,7 +37,7 @@ Astronomy on Tap is a show that brings astronomy to the public with accesible an
 
 Before the COVID pandemic, Astronomy on Tap in Austin ([AoTATX](https://www.aotatx.org)) ran monthly shows featuring 3 talks and an Astronomy in the News segment, regularly reaching audiences of over 200 people. Throughout 2020, we broadcasted virtual live shows featuring a pared down run of the show. In exciting news -- AoTATX has returned to live shows as of November 2023!
 
-![AoTATX News](/assets/img/aot_news.jpeg){: width="400" align="right"}
+[![AoTATX News](/assets/img/aot_news.jpeg){: width="400" align="right"}](/assets/img/aot_news.jpeg)
 
 While at UT Austin, I helped to run AoTATX, including helming the Twitter account during our shows, and co-hosted the Astronomy in the News section with my wonderfully hilarious co-host and fellow grad student [Jackie Champagne](http://jackiechampagne.com). The picture on the right captured me and my favorite pasttime: sharing news on the icy moons of the outer solar system. AoT has been a great way of getting astronomy to the public, and the enthusiasm and interest among our audience for all of the topics we cover is palpable.
 

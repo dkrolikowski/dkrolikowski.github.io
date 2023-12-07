@@ -38,7 +38,7 @@ I detailed the improvements I made to the telluric module in the NEID pipeline d
   + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
   + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
 
-![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}
+[![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}](/assets/img/o2_gamma_band.png)
 
 On the right I show an example of the new telluric model correction with the latest version of the NEID pipeline for an A star -- so the spectrum should be flat. This is a portion of the spectrum covering the O<sub>2</sub> gamma band, which is the weakest of the three strong O<sub>2</sub> bands in the visible. In <span style="color:#50b29e; font-weight: bold;">teal</span> is the correction with the old pipeline (without a variable LSF) and in <span style="color:#db6d1b; font-weight: bold">orange</span> is the new correction with the variable LSF. Since these are O<sub>2</sub> lines, they are only highligthing the improvement from the LSF -- and the correction is **much** better! There are a few weak water lines in his span though, such as at 6299 Angstrom, which are also better corrected in the new pipeline version.
 

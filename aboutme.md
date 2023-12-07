@@ -10,7 +10,7 @@ When I can manage to get away from my computer, which thankfully has become much
 
 Despite spending 6 years living in a city known for its amazing and varied live music scene, I unfortunately didn't get back to playing music after graduating college (one day I will return to it!) I am a percussionist, playing everything from jazz drum set to orchestral triangle. I was lucky to meet some other awesome musicians in college whose band I joined halfway through my undergrad years -- check us out if you want to hear some funky tunes: [The Red Kettle Collective](https://open.spotify.com/artist/3OKo8dOMzkCjzckYJ7eHxQ?si=JnHaAVMbRISm26R7I59sSA) 😎
 
-| ![Drummer me](/assets/img/drum.jpg){: width="400" } | ![PJ](/assets/img/pj.jpg){: width="400" } |
+| [![Drummer me](/assets/img/drum.jpg){: width="400" }](/assets/img/drum.jpg) | [![PJ](/assets/img/pj.jpg){: width="400" }](/assets/img/pj.jpg) |
 |:---:|:---:|
 | *Drumming away with the SUNY Geneseo Jazz Ensemble* | *The sights I miss from NY (Port Jefferson Harbor)* |
 
