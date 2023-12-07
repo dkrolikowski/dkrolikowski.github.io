@@ -67,7 +67,7 @@ As a part of this effort, I wrote a pipeline for the Tull spectrograph to reduce
 
 I have a collaboration with JPL to combine precision RVs from multiple instruments across wavelength to study the chromatic behavior of stellar activity-driven RV noise. We targeted active M-dwarfs with known rotation periods and activity signals, and observed using [the APF](https://www.lickobservatory.org/explore/research-telescopes/automated-planet-finder/) in the visible and [HPF](https://hpf.psu.edu) in the NIR. We also obtained some observations with [PARVI](https://ao.jpl.nasa.gov/PARVI.html), which is further in the NIR than HPF. With high cadence, simultaneous RV time series from the APF and HPF we can analyzie the chromatic and temporal behavior of the activity signals. This is important, as knowing the timescales of activity and the use of multi-wavelength RVs are crucial to best plan and analyze extreme precision observations.
 
-This work is ongoing, and you can see a poster with preliminary results I made for the Extreme Precision Radial Velocity 5 conference [here](/assets/pub/poster_eprv5.pdf).
+This work is ongoing, and you can see a poster with preliminary results I made for the Extreme Precision Radial Velocity 5 conference [here](/assets/pubs/poster_eprv5.pdf).
 
 ## Lithium abundances in star clusters across time
 
