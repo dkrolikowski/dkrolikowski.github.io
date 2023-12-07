@@ -63,8 +63,14 @@ Those last two pieces of info can be added with high resolution spectroscopy, to
 
 As a part of this effort, I wrote a pipeline for the Tull spectrograph to reduce its data and perform simple analysis, including measuring radial velocities and Li equivalent widths. I write more about this pipeline on my [Software page](/software).
 
-<!-- ## Panchromatic M dwarf RVs -->
+## Panchromatic RV activity signals in M-dwarfs
+
+I have a collaboration with JPL to combine precision RVs from multiple instruments across wavelength to study the chromatic behavior of stellar activity-driven RV noise. We targeted active M-dwarfs with known rotation periods and activity signals, and observed using [the APF](https://www.lickobservatory.org/explore/research-telescopes/automated-planet-finder/) in the visible and [HPF](https://hpf.psu.edu) in the NIR. We also obtained some observations with [PARVI](https://ao.jpl.nasa.gov/PARVI.html), which is further in the NIR than HPF. With high cadence, simultaneous RV time series from the APF and HPF we can analyzie the chromatic and temporal behavior of the activity signals. This is important, as knowing the timescales of activity and the use of multi-wavelength RVs are crucial to best plan and analyze extreme precision observations.
+
+This work is ongoing, and you can see a poster with preliminary results I made for the Extreme Precision Radial Velocity 5 conference [here](/assets/pub/poster_eprv5.pdf).
 
 ## Lithium abundances in star clusters across time
 
 As an undergrad at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time because it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters.
+
+
