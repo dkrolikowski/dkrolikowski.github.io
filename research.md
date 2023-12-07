@@ -4,6 +4,7 @@ title: Research Projects
 subtitle: young stars, their host stellar populations, and the planetary systems around them
 cover-img:
   - "/assets/img/taurus_cloud.jpg" : "The Taurus Dark Clouds, Credit: Digitized Sky Survey 2"
+  - "/assets/img/gj3470b.jpg" : "Illustration of GJ 3470 b's evaporating atmosphere, Credit: NASA, ESA, D. Player (STScI)"
 ---
 {% include mathjs %}
 
