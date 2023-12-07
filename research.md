@@ -35,22 +35,17 @@ The region as a whole is fairly coherent in kinematics, although there are some 
 
 Like I said above, Gaia provides an unprecedented look into stellar populations. This doesn't just apply to groups of stars already established in the literature. The precision astrometry can be used to look for groups of stars not previously known by finding stars with similar 3D positions and on-sky motions. However, many stars in Gaia are missing radial velocity (particularly to sub-km/s precision) and there is no youth indicator information beyond Gaia photometry-based isochronal ages.
 
-Those last two pieces of info can be added with high resolution spectroscopy, to measure radial velocities and traditional spectroscopic youth indicators like H-alpha and lithium abundance. I have done significant observing using the Tull coudé optical echelle spectrograph at McDonald Observatory to look at candidate members of young stellar groups, both known and unknown. For example, I have looked for new members of the distributed/older population of Taurus and also looked for the host stellar populations of young transiting planet host stars found with K2 and TESS.
+Those last two pieces of info can be added with high resolution spectroscopy, to measure radial velocities and traditional spectroscopic youth indicators like H-alpha and lithium abundance. I have done significant observing using the Tull coudé optical echelle spectrograph at McDonald Observatory to look at candidate members of young stellar groups, both known and unknown. For example, I have looked for new members of the distributed/older population of Taurus and also looked for the host stellar populations of young transiting planet host stars found with K2 and TESS. A poster with preliminary results from my survey for new Taurus members can be found [here](/assets/pubs/poster_coolstars20.pdf).
 
 As a part of this effort, I wrote a pipeline for the Tull spectrograph to reduce its data and perform simple analysis, including measuring radial velocities and Li equivalent widths. I write more about this pipeline on my [Software page](/software).
 
 ## Panchromatic M dwarf RVs
 
+## Lithium abundances in star clusters across time
 
-<!-- # Young stellar populations
+As an undergrad at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time because it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters.
 
-To understand how planetary systems form and evolve, we must understand how the stars they orbit do the same. One pillar of my research is the study of young stars, and in particular the groups they form in. Most stars form in clusters, or at the very least loose associations. By studying an ensemble of stars that formed together, it is easier to determine the age, and thus other stellar properties, of all stars in the group. With a well defined census, we can look at the spatial and velocity distributions of the stars in these groups to back out a picture of how they formed, which can constrain the theories and physics of star formation in general.
-
-### A survey for new members of the Taurus region
-
-For my second year project at UT, I also started a spectroscopic survey for new members of the Taurus region, particularly in the older, distributed population identified in [Kraus et al. 2017](https://ui.adsabs.harvard.edu/abs/2017ApJ...838..150K/abstract). Comprehensively surveying the Taurus region away from the molecular clouds is quite complicated because it spans such a large area on the sky, and any large scale photometric surveys are biased towards certain types of stars (such as young disk-bearing objects). To systematically search for new members of this population, we need 1) full 6D phase space (position and velocity) information to ensure membership and 2) some sort of youth indicator. While *Gaia* provides exquisite positions and on-sky motions, spectroscopy is necessary for the 6th dimension of phase space (radial velocity) and youth indicators (such as lithium). This is extremely observationally intensive, requiring a large amount of time with a high resolution spectrograph.
-
-We have access to resources for this through [McDonald Observatory](https://mcdonald.utexas.edu) and the Tull coudé spectrograph on the 2.7-m Harlan J. Smith Telescope, and have slowly built up a survey observing over a hundred candidate members of the broader Taurus region. A poster featuring preliminary results from this survey can be found [here](/assets/pubs/poster_coolstars20.pdf).
+<!-- 
 
 # Newly formed and evolving planetary systems
 
@@ -70,6 +65,4 @@ With this rich dataset of spectral time series, we also hope to investigate stel
 
 <br/><br/>
 
-# Li abundances in star clusters across time
-
-In my undergrad years at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time as it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters. -->
+-->
