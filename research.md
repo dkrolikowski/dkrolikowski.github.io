@@ -27,11 +27,11 @@ The region as a whole is fairly coherent in kinematics, although there are some 
 
 # Stellar activity in the NIR Helium triplet at young ages
 
-Over the last 5 years, the NIR Helium triplet absorption feature (~10830 $\AA$) has emerged as an extremely important probe to detect exoplanet exospheres and atmospheric mass loss. The commissioning of multiple NIR precision spectrometers (such as HPF) have made it easier to observe the NIR Helium triplet and observe *samples* of planets to search for exospheres and measure mass loss across planetary and stellar properties, which will help elucidate the cause and timescale of atmospheric mass loss. To understand the timescale it is necessary to look for exospheres as a function of age, particularly at young ages.
+Over the last 5 years, the NIR Helium triplet absorption feature (~10830 angstrom) has emerged as an extremely important probe to detect exoplanet exospheres and atmospheric mass loss. The commissioning of multiple NIR precision spectrometers (such as HPF) have made it easier to observe the NIR Helium triplet and observe *samples* of planets to search for exospheres and measure mass loss across planetary and stellar properties, which will help elucidate the cause and timescale of atmospheric mass loss. To understand the timescale it is necessary to look for exospheres as a function of age, particularly at young ages.
 
 *However*, the NIR Helium triplet, which is a chromospheric line, is sensitive to stellar activity. Since activity is higher at younger ages, potential contamination of exosphere observations from the host star activity itself is a greater issue for young exoplanets. The activity-driven behavior of the NIR Helium triplet at young ages is not well-studied though.
 
-![Helium Variability vs Age](/assets/img/he_var_vs_age.pdf){: width="350" align="left" style="padding:10px"}
+![Helium Variability vs Age](/assets/img/he_var_vs_age.pdf){: width="40%" align="left" style="padding:10px"}
 
 In work just recently published, I used a large set of HPF data I have of a sample of young transiting exoplanet host stars to analyze the NIR Helium triplet absorption as a function of age, activity, and time. We find that the NIR Helium triplet is indeed variable as a result of stellar activity, with increased variability at younger ages and the fastest rotation periods. On the left is a plot showing the intrinsic stellar Helium triplet absorption variability as a function of age, showing a precipitous decrease from high variability at the youngest ages. We also use the strength of the absorption to study the structure of young chromospheres and reinforce previously published conclusions that the NIR Helium transition in active chromospheres is driven by collisional excitation, implying that these active chromospheres are denser than older, quieter counterparts. Stellar activity can definitely affect and confuse exosphere observations, although for stars with ages above 200-300 Myr it shouldn't totally prevent the detection of even small exospheres. 
 
@@ -50,12 +50,7 @@ Young stars are active, leading to a high level of photometric and spectroscopic
 
 I have started a survey of young transiting planet hosts found by K2 and TESS with HPF to search for the RV signals of non-transiting planets in the systems, particularly giant planets exterior to the transiting planets. Compact, multi-planet systems found by Kepler have an over-occurrence of outer gas giants compared to the field. This should be true at young ages as well, although any differences might indicate the role that planet-planet scattering plays in orbital migration or how common it is for outer planets to be ejected from a planetary system (such as if the occurrence is *even higher* for younger systems). We are observing all young transiting planet hosts that are observable by the HET (norther hemisphere), and have at least a year-long baseline for all targets; the time baseline is the constraining factor in detecting outer gas giants comparable to those in the compact Kepler systems.
 
-![K2-136 He](/assets/img/k2136_helium.pdf){: width="280" align="left" style="padding:10px"}
-
-With this rich dataset of spectral time series, we also hope to investigate stellar activity in the NIR, which is crucial as the field moves forward with precision RVs across a wide spectral range. In particular, we are interested in characterizing the variability of the NIR helium absorption line, which has been used to probe the escaping atmospheres of planets. This spectral line is likely affected by activity, which will limit the possible precision for exosphere detections. We see that for moderately young stars (about 700 Myr), this variability should only cause an issue at the 1-2% level, although this increases substantially at younger ages. A thorough analysis across age and spectral type will be performed to accurately characterize the variability, and assess the viability of He observations for young planets. A poster describing the overview of this program and featuring preliminary results can be found [here](/assets/pubs/poster_exss4.pdf).
-
-<!-- # Stellar activity in the NIR Helium triplet at young agesd
-
+<!-- 
 # Outer architecture of young exoplanetary systems -->
 
 # Other assorted projects
