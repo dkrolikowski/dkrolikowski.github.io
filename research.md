@@ -8,8 +8,8 @@ cover-img:
 {% include mathjs %}
 
 My research interests and projects broadly include young stars and planets, in particular:
-  + Leveraging Gaia to understand young stellar populations and their star forming history.
-  + Young stellar activity, including as a probe of stellar structure and its effect on radial velocity observations (particularly across wavelength)
+  + Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
+  + Young stellar activity, including as a probe of stellar astrophysics and its effect on RV observations. (See my paper about the NIR Helium triplet's activity [here](https://arxiv.org/abs/2311.04971))
   + The architecture of young planetary systems and their formation pathways
   + Spectroscopic data reduction and analysis
 
@@ -31,7 +31,7 @@ Over the last 5 years, the NIR Helium triplet absorption feature (~10830 angstro
 
 *However*, the NIR Helium triplet, which is a chromospheric line, is sensitive to stellar activity. Since activity is higher at younger ages, potential contamination of exosphere observations from the host star activity itself is a greater issue for young exoplanets. The activity-driven behavior of the NIR Helium triplet at young ages is not well-studied though.
 
-![Helium Variability vs Age](/assets/img/he_var_vs_age.pdf){: width="40%" align="left" style="padding:10px"}
+[![Helium Variability vs Age](/assets/img/he_var_vs_age.pdf){: width="40%" align="left" style="padding:10px"}](/assets/img/he_var_vs_age.pdf)
 
 In work just recently published, I used a large set of HPF data I have of a sample of young transiting exoplanet host stars to analyze the NIR Helium triplet absorption as a function of age, activity, and time. We find that the NIR Helium triplet is indeed variable as a result of stellar activity, with increased variability at younger ages and the fastest rotation periods. On the left is a plot showing the intrinsic stellar Helium triplet absorption variability as a function of age, showing a precipitous decrease from high variability at the youngest ages. We also use the strength of the absorption to study the structure of young chromospheres and reinforce previously published conclusions that the NIR Helium transition in active chromospheres is driven by collisional excitation, implying that these active chromospheres are denser than older, quieter counterparts. Stellar activity can definitely affect and confuse exosphere observations, although for stars with ages above 200-300 Myr it shouldn't totally prevent the detection of even small exospheres. 
 
