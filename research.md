@@ -10,7 +10,7 @@ cover-img:
 
 My research interests and projects broadly include young stars and planets, in particular:
   + Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
-  + Young stellar activity, including as a probe of stellar astrophysics and its effect on RV observations. (See my paper about the NIR Helium triplet's activity [here](https://arxiv.org/abs/2311.04971))
+  + Young stellar activity, including as a probe of stellar astrophysics and its effect on RV observations. (See my paper about the NIR Helium triplet's activity [here](https://arxiv.org/abs/2311.04971) and a conference talk about the work [here](https://www.youtube.com/watch?v=agLcXqk2zRA))
   + The architecture of young planetary systems and their formation pathways
   + Spectroscopic data reduction and analysis
 
