@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HPF Dashboard Index</title>
+<style>
+  :root {
+    --bg:      #0d1117;
+    --surface: #161b22;
+    --border:  #30363d;
+    --text:    #e6edf3;
+    --muted:   #8b949e;
+    --accent:  #58a6ff;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Courier New', monospace;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+  }
+
+  header p {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+    letter-spacing: 0.05em;
+  }
+
+  .target-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .target-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.15s, background 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .target-card:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.05);
+  }
+
+  .target-card .name {
+    font-size: 1.1rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+  }
+
+  .target-card .status {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .missing {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>HPF Dashboard Index</h1>
+  <p>Select a target to view its quick-look dashboard.</p>
+</header>
+
+<div class="target-list">
+  <a class="target-card" href="k277_dashboard.html">
+    <span class="name">k277</span>
+  </a>
+  <a class="target-card" href="v1298tau_dashboard.html">
+    <span class="name">v1298tau</span>
+  </a>
+  <a class="target-card" href="k225_dashboard.html">
+    <span class="name">k225</span>
+  </a>
+  <a class="target-card" href="iras04125_dashboard.html">
+    <span class="name">iras04125</span>
+  </a>
+  <a class="target-card" href="k2136_dashboard.html">
+    <span class="name">k2136</span>
+  </a>
+  <a class="target-card" href="hd283869_dashboard.html">
+    <span class="name">hd283869</span>
+  </a>
+  <a class="target-card" href="k2284_dashboard.html">
+    <span class="name">k2284</span>
+  </a>
+  <a class="target-card" href="hd63433_dashboard.html">
+    <span class="name">hd63433</span>
+  </a>
+  <a class="target-card" href="k295_dashboard.html">
+    <span class="name">k295</span>
+  </a>
+  <a class="target-card" href="k2100_dashboard.html">
+    <span class="name">k2100</span>
+  </a>
+  <a class="target-card" href="k2104_dashboard.html">
+    <span class="name">k2104</span>
+  </a>
+  <a class="target-card" href="k2102_dashboard.html">
+    <span class="name">k2102</span>
+  </a>
+  <a class="target-card" href="k2101_dashboard.html">
+    <span class="name">k2101</span>
+  </a>
+  <a class="target-card" href="ep211901114_dashboard.html">
+    <span class="name">ep211901114</span>
+  </a>
+  <a class="target-card" href="k2103_dashboard.html">
+    <span class="name">k2103</span>
+  </a>
+  <a class="target-card" href="k2264_dashboard.html">
+    <span class="name">k2264</span>
+  </a>
+  <a class="target-card" href="toi1807_dashboard.html">
+    <span class="name">toi1807</span>
+  </a>
+  <a class="target-card" href="toi2076_dashboard.html">
+    <span class="name">toi2076</span>
+  </a>
+  <a class="target-card" href="toi2048_dashboard.html">
+    <span class="name">toi2048</span>
+  </a>
+  <div class="target-card missing">
+    <span class="name">kepler1643</span>
+    <span class="status">no data found</span>
+  </div>
+</div>
+
+</body>
+</html>

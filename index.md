@@ -9,9 +9,9 @@ cover-img:
   - "/assets/img/kpno.jpg" : "Kitt Peak National Observatory, Credit: NOIRLab"
 ---
 
-Welcome! I'm Danny Krolikowski, a postdoc at Steward Observatory and a member of the [NEID](https://neid.psu.edu) and [HPF](https://hpf.psu.edu) instrument teams, both of which are extreme precision radial velocity spectrometers.
+Welcome! I'm Danny Krolikowski, a postdoc at Steward Observatory and a member of the [NEID](https://neid.psu.edu) and [HPF](https://hpf.psu.edu) instrument teams, two cutting edge extreme precision radial velocity spectrometers.
 
-In my current role, I mostly work on the NEID software team to expand the functionality of its [data reduction pipeline](https://neid.ipac.caltech.edu/docs/NEID-DRP/), address any issues with it, and support the NEID userbase. I received my Ph.D. from UT Austin in August of 2022, where I worked with [Professor Adam Kraus](https://astronomy.utexas.edu/component/cobalt/item/11-astronomy/1273-kraus-adam?Itemid=1272) and have been an active user of the HPF spectrograph since it was commissioned in 2018.
+I mostly work on the NEID software team to expand the functionality of its [data reduction pipeline](https://neid.ipac.caltech.edu/docs/NEID-DRP/), address any issues with it, and support the NEID userbase. I received my Ph.D. from UT Austin in August of 2022, where I worked with [Professor Adam Kraus](https://astronomy.utexas.edu/component/cobalt/item/11-astronomy/1273-kraus-adam?Itemid=1272) and have been an active user of the HPF spectrometer since it was commissioned in 2018.
 
 My broad research interests involve young stars and their planetary systems, in particular to understand how they form and evolve in their early lifetimes. I have worked on projects regarding young stellar populations, stellar activity, exoplanet detection and characterization, and the handling of spectroscopic data.
 
