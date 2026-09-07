@@ -19,8 +19,8 @@ author: Danny Krolikowski
 navbar-links:
   Home: "/"
   Research: "research"
-  Teaching/Outreach: "teach"
   Software: "software"
+  Teaching/Outreach: "teach"
   CV: "/assets/DMK_CV.pdf"
   About Me: "aboutme"
 

@@ -12,7 +12,7 @@ My research interests broadly include young stars and planets, in particular:
 
 + Young stellar activity, as a probe of stellar astrophysics and its effect on radial velocity or exoplanet atmospheric measurements.
 + Leveraging Gaia to understand young stellar populations and their star forming histories.
-+ The architecture of young planetary systems and their formation pathways.
++ The properties and architectures of young planetary systems to understand their formation pathways.
 + And very importantly, spectroscopic data handling, processing, and analysis, which underpin much of the above work!
 
 <!-- + Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
