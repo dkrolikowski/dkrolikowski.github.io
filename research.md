@@ -1,21 +1,26 @@
 ---
 layout: page
 title: Research Projects
-subtitle: young stars, their planetary systems, and the spectroscopic data to understand them all
+subtitle: young stars, their planetary systems, and the spectroscopic data to understand them
 cover-img:
   - "/assets/img/taurus_cloud.jpg" : "The Taurus Dark Clouds, Credit: Digitized Sky Survey 2"
   - "/assets/img/gj3470b.jpg" : "Illustration of GJ 3470 b's evaporating atmosphere, Credit: NASA, ESA, D. Player (STScI)"
 ---
 {% include mathjs %}
 
-My research interests and projects broadly include young stars and planets, in particular:
+My research interests broadly include young stars and planets, in particular:
 
-+ Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
++ Young stellar activity, as a probe of stellar astrophysics and its effect on radial velocity measurements or exoplanet atmospheric observations.
++ Leveraging Gaia to understand young stellar populations and their star forming history.
++ The architecture of young planetary systems and their formation pathways.
++ And very importantly, spectroscopic data handling, processing, and analysis, which underpins much of the above work!
+
+<!-- + Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
 + Young stellar activity, including as a probe of stellar astrophysics and its effect on RV observations. (See my paper about the NIR Helium triplet's activity [here](https://arxiv.org/abs/2311.04971) and a conference talk about the work [here](https://www.youtube.com/watch?v=agLcXqk2zRA))
 + The architecture of young planetary systems and their formation pathways
 + Spectroscopic data reduction and analysis
 
-Below I talk in more detail about some of the main projects I have worked on.
+Below I talk in more detail about some of the main projects I have worked on. -->
 
 ## Stellar activity in the NIR Helium triplet at young ages
 
