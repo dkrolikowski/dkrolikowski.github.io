@@ -36,6 +36,11 @@ In [work I published](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abst
 
 ## RVData
 
+For the last few years, I have been heavily involved in EPRV community-wide efforts to standardize our data formats and software. Pushing EPRV science to the goal of 10 cm/s precision will require combining data from multiple instruments and thorough understanding of the downstream effets on RVs of every data reduction, processing, and analysis step. To enable this, we need to standardize the format of our high resolution spectroscopic data, for which each instrument has a slightly (or not so slightly) different format.
+
+An effort led by Jenn Burt successfully defined a standardized data format, which is explained on this [documentation page](https://eprv-data-standard.readthedocs.io/en/latest/overview.html). The data format covers multiple data levels (L0 through L4) with varying levels of processing. As a part of this effort, we also developed translator code for each instrument's native data format into the standard format. That code is found in the repository [```RVData```](https://github.com/EPRV-RCN/RVData/) on GitHub, and I was a lead developer on the NEID translator.
+
+I am PI of a follow-up effort to develop the software infrastructure of a standardized community data reduction and analysis framework. This efforts focuses on the *transition* between data levels, rather than defining the levels themselves. We specifically are not developing a "community pipeline". The idea is that this framework can hold all of the modules and algorithms required to build an EPRV pipeline, but that we are not "mandating" one pipeline. Instead, this framework should encourage the mix and match testing of different algorithms on data from different instruments, and the development of cutting edge methods for data processing and analysis.
 
 ## The Taurus star forming region's substructure and history
 
@@ -49,7 +54,7 @@ The region as a whole is fairly coherent in kinematics, although there are some 
 
 ## Outer architectures of young planetary systems
 
-I am also using the HPF data featured in the Helium triplet project to search for outer giant planets in these systems with known inner transiting planets using HPF precision RVs. 
+I am also using my HPF data sets to search for outer giant planets in young systems with known short-period transiting planets using HPF RVs.
 
 Mapping the outer orbital architectures of these systems is a crucial constraint on the formation pathways of planetary systems, including the mechanisms behind orbital migration. The connection between inner and outer planets as a function of age, particularly in the first billion years when systems are most rapidly evolving, could elucidate the role of planet-planet scattering in the dynamical history of planetary systems. Finding young planets is difficult due to their intrinsic stellar activity-driven noise and challenges in measuring stellar ages. However, K2 and TESS have found dozens of young transiting planets using their high precision photometry, and leveraging membership in young clusters and associations to have a good grasp of the system's age.
 
