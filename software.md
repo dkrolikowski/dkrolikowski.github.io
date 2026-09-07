@@ -44,7 +44,7 @@ In version 1.5 of the NEID pipeline, I leveraged the refactor to add a new wavel
 
 You can find more details about the wavelength calibration module in the documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#wavelength-calibration).
 
-## RVData
+## The EPRV Community Data Format Standard and Translators
 
 As a member of the collaboration to create a standardized EPRV data format, I am the primary developer of the code to translate native NEID data into the standard format. The package with the translator code, which works on many many EPRV instruments, can be found in the repository [RVData](https://github.com/EPRV-RCN/RVData). There is thorough documentation about the standard format and the translator code, including a tutorial on using NEID data in the standard format. This code is pip installable, and just had its v1.0.0 release!
 
