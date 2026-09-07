@@ -32,13 +32,13 @@ On the right I show an example of the new telluric model correction with the lat
 
 #### Standalone Telluric Model Module
 
-I created a standalone version of the NEID pipeline's telluric module that is available on my GitHub at [eprv_telluric_correction](https://github.com/dkrolikowski/eprv_telluric_correction). This is primarily designed for use with HPF,  which *greatly* benefits because its near infrared bandpass has much more telluric contamination.
+I created a standalone version of the NEID pipeline's telluric module that is available on my GitHub at [```eprv_telluric_correction```](https://github.com/dkrolikowski/eprv_telluric_correction). This is primarily designed for use with HPF,  which *greatly* benefits because its near infrared bandpass has much more telluric contamination.
 
 ### Wavelength Calibration
 
 Wavelength calibration is perhaps the most important step in a pipeline for extreme precision radial velocity instruments. Without a precise and stable wavelength calibration, you cannot measure stellar radial velocitites to the precision required for detecting and characterizing exoplanets!
 
-In version 1.4 of the NEID pipeline, I completely refactored the complex wavelength calibration module to be more maintainable, readable, and most importantly more extensible for future improvement to the constituent wavelenght calibration algorithms.
+In version 1.4 of the NEID pipeline, I completely refactored the complex wavelength calibration module to be more maintainable, readable, and most importantly more extensible for future improvement to the constituent wavelength calibration algorithms.
 
 In version 1.5 of the NEID pipeline, I leveraged the refactor to add a new wavelength calibration mode that better handles poor calibration data, providing our users with higher quality data even during times when our calibration sources are struggling.
 
@@ -46,11 +46,13 @@ You can find more details about the wavelength calibration module in the documen
 
 ## RVData
 
+As a member of the collaboration to create a standardized EPRV data format, I am the primary developer of the code to translate native NEID data into the standard format. The package with the translator code, which works on many many EPRV instruments, can be found in the repository [RVData](https://github.com/EPRV-RCN/RVData). There is thorough documentation about the standard format and the translator code, including a tutorial on using NEID data in the standard format. This code is pip installable, and just had its v1.0.0 release!
+
 ## Tull Coudé Spectrograph Reduction and Analysis Pipeline
 
 While a grad student at UT Austin, I wrote a reduction pipeline for the Tull coudé spectrograph on the Harlan J. Smith 2.7-m telescope at McDonald Observatory. The original pipeline was written in python 2.7 and is still on my GitHub at [```coudereduction```](https://github.com/dkrolikowski/coudereduction).
 
-In 2023, I finally got around to updating the pipeline: writing it in Python 3, making it more user friendly, and implementing its steps in a more modular way. This version of the pipeline can be found on my GitHub at [```tull_coude_reduction```](https://github.com/dkrolikowski/tull_coude_reduction) and its documentation can be found [here](https://tull-coude-reduction.readthedocs.io/en/latest/). As of now, the pipeline runs from processing the raw CCD images to measuring radial velocities from extracted and wavelength calibrated stellar spectra.
+In 2023, I finally got around to updating the pipeline: writing it in Python 3, making it more user friendly, and implementing its steps in a more modular way. This version of the pipeline can be found on my GitHub at [```tull_coude_reduction```](https://github.com/dkrolikowski/tull_coude_reduction) (with [documentation](https://tull-coude-reduction.readthedocs.io/en/latest/)). As of now, the pipeline runs from processing the raw CCD images to measuring radial velocities from extracted and wavelength calibrated stellar spectra.
 
 <!-- 
 While the pipeline is written specifically for the Tull spectrograph, it is being developed with a modular design so that:
@@ -62,11 +64,9 @@ I'm still actively developing the pipeline -- so stay tuned for improvements and
 
 ## Miscellaneous
 
-Here's some other random software I've worked on, including recommendations to packages that I have (minorly) contributed to that I think are very cool and useful!
-
 ### Orbits Code
 
-For a Planetary Astrophysics class in grad school, we had to write code to take in parameters of a planetary system and output observable quantities such as the stellar RV, astrometric orbits, and when transits would occur. My version can be found as [```HW1_Orbits```](https://github.com/dkrolikowski/HW1_Orbits) on my GitHub page. 
+I wrote code for a Planetary Astrophysics class in grad school to take in parameters of a planetary system and output observable quantities such as the stellar RV, astrometric orbits, and when transits would occur. My version can be found as [```HW1_Orbits```](https://github.com/dkrolikowski/HW1_Orbits) on my GitHub.
 
 I haven't gone back and edited the code since I created it (I was an early grad student so it might be a little rough), but it might still be useful to take a look at for people needing to generate planetary system observations!
 
@@ -77,6 +77,5 @@ I haven't gone back and edited the code since I created it (I was an early grad 
 
 ## Future Plans
 
-Beyond improvements and expansions to the Tull coudé reduction and analysis pipeline, other software I am thinking about is:
-
-+ Creating a package to measure equivalent width of the Helium 10830 Angstrom triplet from HPF spectra. This would be a public release of the code used to measure EWs presented in my recent paper on the Helium triplet in young stars, which can be found on arXiv [here](https://arxiv.org/abs/2311.04971). My hope is that you could point to any HPF spectrum of a (late F through early M) star and output a Helium EW! This also would include the HPF application of the NEID telluric correction described above.
++ Creating a package to measure equivalent width of the Helium 10830 Angstrom triplet from HPF spectra. This would be a public release of the code used to measure EWs presented in my [recent paper on the Helium triplet in young stars](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abstract). My hope is that you could point to any HPF spectrum of a (late F through early M) star and output a Helium EW!
++ Expanding the telluric correction package to work on more instruments than just HPF.
