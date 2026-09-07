@@ -77,5 +77,5 @@ I haven't gone back and edited the code since I created it (I was an early grad 
 
 ## Future Plans
 
-+ Creating a package to measure equivalent width of the Helium 10830 Angstrom triplet from HPF spectra. This would be a public release of the code used to measure EWs presented in my [recent paper on the Helium triplet in young stars](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abstract). My hope is that you could point to any HPF spectrum of a (late F through early M) star and output a Helium EW!
++ Creating a package to measure equivalent width of the Helium 10830 Angstrom triplet from HPF spectra. This would be a public release of the code used to measure EWs presented in my [paper on the Helium triplet in young stars](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abstract). My hope is that you could point to any HPF spectrum of a (late F through early M) star and output a Helium EW!
 + Expanding the telluric correction package to work on more instruments than just HPF.
