@@ -34,9 +34,9 @@ In [work I published](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abst
 
 **The main takeaway is just to be careful!** While stellar activity isn't a death knell for finding young exospheres, we just need to carefully considering transit timing, other activity indicators, etc. when interpreting exosphere observations.
 
-## EPRV community efforts for data and software standardization 
+## EPRV community efforts for data and software standardization
 
-For the last few years, I have been heavily involved in EPRV community-wide efforts to standardize our data formats and software. Pushing EPRV science to the goal of 10 cm/s precision will require combining data from multiple instruments and thorough understanding of the downstream effets on RVs of every data reduction, processing, and analysis step. To enable this, we need to standardize the format of our high resolution spectroscopic data, for which each instrument has a slightly (or not so slightly) different format.
+For the last few years, I have been heavily involved in EPRV community-wide efforts to standardize our data formats and software. Pushing EPRV science to the goal of 10 cm/s precision will require combining data from multiple instruments and thorough understanding of how hardware and software design choices effect RV measurement. To enable this, we need to standardize the format of our high resolution spectroscopic data, for which each instrument has a slightly (or not so slightly) different format.
 
 An effort led by Jenn Burt successfully defined a standardized data format, which is explained on this [documentation page](https://eprv-data-standard.readthedocs.io/en/latest/overview.html). The data format covers multiple data levels (L0 through L4) with varying levels of processing. As a part of this effort, we also developed translator code for each instrument's native data format into the standard format. That code is found in the repository [```RVData```](https://github.com/EPRV-RCN/RVData/) on GitHub, and I was a lead developer on the NEID translator.
 
