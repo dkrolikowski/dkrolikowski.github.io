@@ -10,10 +10,10 @@ cover-img:
 
 My research interests broadly include young stars and planets, in particular:
 
-+ Young stellar activity, as a probe of stellar astrophysics and its effect on radial velocity measurements or exoplanet atmospheric observations.
-+ Leveraging Gaia to understand young stellar populations and their star forming history.
++ Young stellar activity, as a probe of stellar astrophysics and its effect on radial velocity or exoplanet atmospheric measurements.
++ Leveraging Gaia to understand young stellar populations and their star forming histories.
 + The architecture of young planetary systems and their formation pathways.
-+ And very importantly, spectroscopic data handling, processing, and analysis, which underpins much of the above work!
++ And very importantly, spectroscopic data handling, processing, and analysis, which underpin much of the above work!
 
 <!-- + Leveraging Gaia to understand young stellar populations and their star forming history. (See my paper about the Taurus star forming region [here](https://ui.adsabs.harvard.edu/abs/2021AJ....162..110K/abstract))
 + Young stellar activity, including as a probe of stellar astrophysics and its effect on RV observations. (See my paper about the NIR Helium triplet's activity [here](https://arxiv.org/abs/2311.04971) and a conference talk about the work [here](https://www.youtube.com/watch?v=agLcXqk2zRA))
@@ -71,10 +71,8 @@ As a part of this effort, I wrote a pipeline for the Tull spectrograph to reduce
 
 ### Panchromatic RV activity signals in M-dwarfs
 
-I have a collaboration with JPL to combine precision RVs from multiple instruments across wavelength to study the chromatic behavior of stellar activity-driven RV noise. We targeted active M-dwarfs with known rotation periods and activity signals, and observed using [the APF](https://www.lickobservatory.org/explore/research-telescopes/automated-planet-finder/) in the visible and [HPF](https://hpf.psu.edu) in the NIR. We also obtained some observations with [PARVI](https://ao.jpl.nasa.gov/PARVI.html), which is further in the NIR than HPF. With high cadence, simultaneous RV time series from the APF and HPF we can analyzie the chromatic and temporal behavior of the activity signals. This is important, as knowing the timescales of activity and the use of multi-wavelength RVs are crucial to best plan and analyze extreme precision observations.
-
-This work is ongoing, and you can see a poster with preliminary results I made for the Extreme Precision Radial Velocity 5 conference [here](/assets/pubs/poster_eprv5.pdf).
+I have collaborated with astronomers at NASA JPL to combine precision RVs from multiple instruments across wavelength to study the chromatic behavior of stellar activity-driven RV noise. We targeted active M-dwarfs with known rotation periods and activity signals, and observed using [the APF](https://www.lickobservatory.org/explore/research-telescopes/automated-planet-finder/) in the visible and [HPF](https://hpf.psu.edu) in the NIR. With these high cadence, simultaneous RV time series, we can analyze the chromatic and temporal behavior of the activity signals. This is important, as knowing activity's timescales and manifestation in different wavelength RVs is crucial to best plan and analyze extreme precision observations. You can take a look at a [poster](/assets/pubs/poster_eprv5.pdf) with preliminary results!
 
 ### Lithium abundances in star clusters across time
 
-As an undergrad at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is a sensitive and important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time because it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed again. However, there are non-standard processes that could bring fresh Li to the stellar surface, which can then be observed and used to test models of the stellar interior. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters, including open and globular clusters.
+As an undergrad at SUNY Geneseo, I worked with [Dr. Aaron Steinhauer](https://www.geneseo.edu/steinhauer) on a variety of projects studying the lithium abundances of open and globular star clusters. Lithium is am important tracer of chemical evolution in stars, where it can be produced and destroyed easily. Lithium depletes over time because it burns at relatively low temperatures, which makes it a fairly robust youth indicator. Lithium can also be created in the interiors of stars, although it often is immediately destroyed. However, there are non-standard processes that can bring fresh Li to the stellar surface, making Li an observable test of stellar interior modeling. I worked on projects to map the Li abundances of both main sequence and red giant stars in multiple clusters.
