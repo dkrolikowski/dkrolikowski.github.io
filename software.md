@@ -36,11 +36,13 @@ I created a standalone version of the NEID pipeline's telluric module that is av
 
 ### Wavelength Calibration
 
-Wavelength very important
+Wavelength calibration is perhaps the most important step in a pipeline for extreme precision radial velocity instruments. Without a precise and stable wavelength calibration, you cannot measure stellar radial velocitites to the precision required for detecting and characterizing exoplanets!
 
-Refactored complex module to be more maintainable and extenible. 
+In version 1.4 of the NEID pipeline, I completely refactored the complex wavelength calibration module to be more maintainable, readable, and most importantly more extensible for future improvement to the constituent wavelenght calibration algorithms.
 
-Added new algorithm to better handle bad calibration frames, leveraging refactor.
+In version 1.5 of the NEID pipeline, I leveraged the refactor to add a new wavelength calibration mode that better handles poor calibration data, providing our users with higher quality data even during times when our calibration sources are struggling.
+
+You can find more details about the wavelength calibration module in the documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#wavelength-calibration).
 
 ## RVData
 
