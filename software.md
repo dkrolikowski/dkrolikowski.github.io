@@ -17,7 +17,7 @@ I have significantly contributed to the [NEID pipeline](https://neid.ipac.caltec
 
 In version 1.3 of the NEID pipeline, I introduced a new telluric model generation routine. Large swaths of light in the visible and infrared are absorbed by Earth's atmosphere, contaminating our astronomical observations. However, we can generate a model of how the atmosphere absorbs the light and provide a correction to the spectra. This is a difficult problem though!
 
-Details about and examples of the new telluric model can be found in the documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), but to summarize:
+Details about and examples of the new telluric model can be found on [this documentation page](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), but to summarize:
 
 + I remade the telluric model grid using [```LBLRTM```](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra.
 + I parameterized NEID's non-Gaussian instrument profile using laser frequency comb observations across the spectrum.
