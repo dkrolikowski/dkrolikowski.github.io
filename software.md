@@ -7,9 +7,34 @@ cover-img:
 ---
 {% include mathjs %}
 
-Writing software, in particular to support others, is one of my favorite parts of being an astronomer. That joy is largely what led me to my current job on the NEID software team, where I am continuing my years of experience working on the reduction and analysis of spectroscopic data.
+My favorite part of my job is writing software to support astronomical instrumentation and the research done by other astronomers. That joy is largely what led me to my current role on the NEID software team, where I am continuing my years of experience working on the reduction and analysis of spectroscopic data, even extending my work to influence the extreme precision radial velocity (EPRV) community at large.
 
-Below I detail software that I have written or plan to write, and my contributions to the NEID pipeline.
+Below I detail software that I have written and contributed to, including the NEID pipeline.
+
+## NEID Data Reduction Pipeline
+
+I have significantly contributed to the NEID pipeline in my current role, the documentation for which can be found [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/).
+
+Beyond addressing issues and helping to restart the instrument after the June 2022 wildfire shutdown, my main contributions to the pipeline have been rewriting its **telluric model creation** and **wavelength calibration** modules.
+
+### Telluric Modeling
+
+Large swaths of the visible and infrared spectrum are absorbed by Earth's atmosphere, contaminating our astronomical observations. The NEID DRP provides a telluric model with which to correct the spectra for Earth's atmosphere. However, this is a difficult problem!
+
+NEID (and truly all spectrometers) has a variable line spread function (LSF) across its spectrum, with a significant amount of width, shape, and asymmetry changes across the spectrum. This needs to be included when generating a telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission.
+
+You can find details on the improvements I made in the documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), but to summarize:
+
++ I fit a parameterization of the LSF (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the laser frequency comb.
++ I remade the telluric model grid using [```LBLRTM```](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra.
++ I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel at every pixel.
++ I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
+
+[![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}](/assets/img/o2_gamma_band.png)
+
+On the right I show an example of the new telluric model correction with the latest version of the NEID pipeline for an A star -- so the spectrum should be flat. This is a portion of the spectrum covering the O<sub>2</sub> gamma band, which is the weakest of the three strong O<sub>2</sub> bands in the visible. In <span style="color:#50b29e; font-weight: bold;">teal</span> is the correction with the old pipeline (without a variable LSF) and in <span style="color:#db6d1b; font-weight: bold">orange</span> is the new correction with the variable LSF. Since these are O<sub>2</sub> lines, they are only highligthing the improvement from the LSF, and the correction is **much** better! There are a few weak water lines in this span, like at 6299 Angstrom, which are also better corrected in the new pipeline version.
+
+There is still work to be done, accounting for asymmetries in the LSF and mapping the LSF for the full bandpass, but this is a wonderful start. I have also applied these methods to HPF spectra, which are *greayl* benefited because its near infrared bandpass has much more telluric contamination.
 
 ## Tull Coudé Spectrograph Reduction and Analysis Pipeline
 
@@ -23,28 +48,6 @@ While the pipeline is written specifically for the Tull spectrograph, it is bein
   + The individual modules can be used as a basis for other pipelines or teaching spectral reduction and analysis.
  
 I'm still actively developing the pipeline -- so stay tuned for improvements and more functionality!
-
-## NEID Data Reduction Pipeline
-
-I have also contributed to the NEID data reduction and analysis pipeline in my current postdoc role. Although the NEID pipeline is not yet public, you can find detailed documentation about the NEID data format, pipeline architecture, and reduction/analysis algorithms [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/).
-
-Beyond addressing issues and helping to restart the instrument after the June 2022 wildfire shutdown, my main contribution to the pipeline has been rewriting its **telluric model creation module**.
-
-NEID has a variable line spread function across its spectrum, with a significant amount of width, shape, and asymmetry changes within an order and from order to order. This needs to be included in the telluric model for it to be an accurate representation of what NEID observes as the atmospheric transmission. 
-
-I detailed the improvements I made to the telluric module in the NEID pipeline documentation [here](https://neid.ipac.caltech.edu/docs/NEID-DRP/algorithms.html#telluric-model), and outline them below:
-  + I chose a parameterization of the line spread function (a Gaussian convolved with a Top Hat) and measured it across the NEID spectrum using observations of the LFC. 
-  + I remade the telluric model grid using [```LBLRTM```](https://github.com/AER-RC/LBLRTM) to remove issues we were encountering with the sampling of the model spectra, introducing interpolation errors.
-  + I implemented variable kernel convolution to convolve the telluric model grid with the variable LSF, allowing for a different convolution kernel (LSF) at every pixel.
-  + I added functionality to simultaneously fit for the precipitable water vapor column using multiple regions of the spectrum.
-
-[![O2 Gamma Band](/assets/img/o2_gamma_band.png){: width="400" align='right'}](/assets/img/o2_gamma_band.png)
-
-On the right I show an example of the new telluric model correction with the latest version of the NEID pipeline for an A star -- so the spectrum should be flat. This is a portion of the spectrum covering the O<sub>2</sub> gamma band, which is the weakest of the three strong O<sub>2</sub> bands in the visible. In <span style="color:#50b29e; font-weight: bold;">teal</span> is the correction with the old pipeline (without a variable LSF) and in <span style="color:#db6d1b; font-weight: bold">orange</span> is the new correction with the variable LSF. Since these are O<sub>2</sub> lines, they are only highligthing the improvement from the LSF -- and the correction is **much** better! There are a few weak water lines in his span though, such as at 6299 Angstrom, which are also better corrected in the new pipeline version.
-
-There is still work to be done on the telluric module. For one, the variable LSF is only mapped where we have LFC spectra, which does not cover the full NEID bandpass. I also intend to apply these methods to HPF spectra, which will *greatly* benefit from improved telluric correction given its NIR bandpass. 
-
-Beyond the telluric module, I am currently helping to overhaul the wavelength calibration module to extract as much information as possible from the ensemble of wavelength calibration source data we taken every day.
 
 ## Miscellaneous
 
