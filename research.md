@@ -34,7 +34,7 @@ In [work I published](https://ui.adsabs.harvard.edu/abs/2024AJ....167...79K/abst
 
 **The main takeaway is just to be careful!** While stellar activity isn't a death knell for finding young exospheres, we just need to carefully considering transit timing, other activity indicators, etc. when interpreting exosphere observations.
 
-## RVData
+## EPRV community efforts for data and software standardization 
 
 For the last few years, I have been heavily involved in EPRV community-wide efforts to standardize our data formats and software. Pushing EPRV science to the goal of 10 cm/s precision will require combining data from multiple instruments and thorough understanding of the downstream effets on RVs of every data reduction, processing, and analysis step. To enable this, we need to standardize the format of our high resolution spectroscopic data, for which each instrument has a slightly (or not so slightly) different format.
 
